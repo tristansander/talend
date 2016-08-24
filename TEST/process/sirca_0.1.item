@@ -218,7 +218,7 @@
     <elementParameter field="TEXT" name="PATTERN" value="&quot;5,4,5&quot;" show="false"/>
     <elementParameter field="TABLE" name="FORMATS">
       <elementValue elementRef="COLUMN" value="time"/>
-      <elementValue elementRef="SIZE" value="6"/>
+      <elementValue elementRef="SIZE" value="7"/>
       <elementValue elementRef="PADDING_CHAR" value="' '"/>
       <elementValue elementRef="ALIGN" value="-1"/>
       <elementValue elementRef="COLUMN" value="date"/>
