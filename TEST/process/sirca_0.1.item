@@ -193,12 +193,12 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="dates" expressionFilter="(type.equalsIgnoreCase(&quot;GG&quot;))" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="dates" expressionFilter="(row1.type.equalsIgnoreCase(&quot;GG&quot;))" activateExpressionFilter="true">
         <mapperTableEntries name="seq" expression="row1.seq " type="id_String" nullable="true"/>
         <mapperTableEntries name="type" expression="row1.type " type="id_String" nullable="true"/>
         <mapperTableEntries name="payload" expression="row1.payload " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="actions" expressionFilter="(type.equalsIgnoreCase(&quot;CA&quot;))" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="actions" expressionFilter="(row1.type.equalsIgnoreCase(&quot;CA&quot;))" activateExpressionFilter="true">
         <mapperTableEntries name="seq" expression="row1.seq " type="id_String" nullable="true"/>
         <mapperTableEntries name="type" expression="row1.type " type="id_String" nullable="true"/>
         <mapperTableEntries name="payload" expression="row1.payload " type="id_String" nullable="true"/>
