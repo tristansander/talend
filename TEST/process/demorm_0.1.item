@@ -131,10 +131,10 @@
       <elementValue elementRef="company" value="&quot;BHP&quot;"/>
       <elementValue elementRef="val" value="&quot;2&quot;"/>
       <elementValue elementRef="date" value="TalendDate.getCurrentDate()"/>
-      <elementValue elementRef="company" value="&quot;BHP&quot;"/>
+      <elementValue elementRef="company" value="&quot;CAL&quot;"/>
       <elementValue elementRef="val" value="&quot;3&quot;"/>
       <elementValue elementRef="date" value="TalendDate.getCurrentDate()"/>
-      <elementValue elementRef="company" value="&quot;BHP&quot;"/>
+      <elementValue elementRef="company" value="&quot;CAL&quot;"/>
       <elementValue elementRef="val" value="&quot;4&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
