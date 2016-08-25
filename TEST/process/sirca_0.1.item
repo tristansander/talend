@@ -269,7 +269,7 @@
       <elementValue elementRef="PADDING_CHAR" value="' '"/>
       <elementValue elementRef="ALIGN" value="-1"/>
       <elementValue elementRef="COLUMN" value="payload2"/>
-      <elementValue elementRef="SIZE" value=""/>
+      <elementValue elementRef="SIZE" value="1000"/>
       <elementValue elementRef="PADDING_CHAR" value="' '"/>
       <elementValue elementRef="ALIGN" value="-1"/>
     </elementParameter>
