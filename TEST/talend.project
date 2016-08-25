@@ -413,4 +413,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_ce2psGjhEeaaDszhsNZghg" login="tristan.sander@servian.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_IWyCwWmSEeaA1tlSy0tf6g" login="adrien.follin@servian.com" firstName="Adrien" lastName="Follin" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_LsM0cWpYEeakFNt3q34LRQ" login="tre@test.com"/>
 </xmi:XMI>
