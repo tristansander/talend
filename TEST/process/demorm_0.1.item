@@ -246,7 +246,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="if(val != null){&#xA;String[] vals = row6.val.split(&quot;,&quot;);&#xA;int total = 1;&#xA;&#xA;for(String val : vals){&#xA;   int oneVal = Integer.parseInt(val);&#xA;   total = total * oneVal;&#xA;}&#xA;&#xA;row7.val = total + &quot;&quot;;&#xA;}"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="if(row6.val != null){&#xA;String[] vals = row6.val.split(&quot;,&quot;);&#xA;int total = 1;&#xA;&#xA;for(String val : vals){&#xA;   int oneVal = Integer.parseInt(val);&#xA;   total = total * oneVal;&#xA;}&#xA;&#xA;row7.val = total + &quot;&quot;;&#xA;}"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1">
@@ -315,7 +315,7 @@
       <column comment="" key="false" length="-1" name="total" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="row4.company != null" activateExpressionFilter="true" activateCondensedTool="true">
         <mapperTableEntries name="date" expression="row4.date " type="id_Date" nullable="true"/>
