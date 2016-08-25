@@ -124,16 +124,16 @@
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
-      <elementValue elementRef="date" value="TalendDate.TalendDate.getDate(&quot;2016-01-01&quot;)"/>
+      <elementValue elementRef="date" value="TalendDate.getDate(&quot;2016-01-01&quot;)"/>
       <elementValue elementRef="company" value="&quot;BHP&quot;"/>
       <elementValue elementRef="val" value="&quot;1&quot;"/>
-      <elementValue elementRef="date" value="TalendDate.TalendDate.getDate(&quot;2016-01-01&quot;)"/>
+      <elementValue elementRef="date" value="TalendDate.getDate(&quot;2016-01-01&quot;)"/>
       <elementValue elementRef="company" value="&quot;BHP&quot;"/>
       <elementValue elementRef="val" value="&quot;2&quot;"/>
-      <elementValue elementRef="date" value="TalendDate.TalendDate.getDate(&quot;2016-01-02&quot;)"/>
+      <elementValue elementRef="date" value="TalendDate.getDate(&quot;2016-01-01&quot;)"/>
       <elementValue elementRef="company" value="&quot;BHP&quot;"/>
       <elementValue elementRef="val" value="&quot;3&quot;"/>
-      <elementValue elementRef="date" value="TalendDate.TalendDate.getDate(&quot;2016-01-02&quot;)"/>
+      <elementValue elementRef="date" value="TalendDate.getDate(&quot;2016-01-01&quot;)"/>
       <elementValue elementRef="company" value="&quot;BHP&quot;"/>
       <elementValue elementRef="val" value="&quot;4&quot;"/>
     </elementParameter>
