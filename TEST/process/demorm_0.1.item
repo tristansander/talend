@@ -209,10 +209,10 @@
       <elementValue elementRef="DELIMITER" value=""/>
       <elementValue elementRef="MERGE" value="false"/>
       <elementValue elementRef="INPUT_COLUMN" value="val"/>
-      <elementValue elementRef="DELIMITER" value=""/>
+      <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
       <elementValue elementRef="MERGE" value="false"/>
       <elementValue elementRef="INPUT_COLUMN" value="val1"/>
-      <elementValue elementRef="DELIMITER" value=""/>
+      <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
       <elementValue elementRef="MERGE" value="false"/>
     </elementParameter>
     <elementParameter field="LABEL" name="NOTE" value=""/>
