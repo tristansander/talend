@@ -246,7 +246,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="if(row6.val != null){&#xA;String[] vals = row6.val.split(&quot;,&quot;);&#xA;int total = 1;&#xA;&#xA;for(String val : vals){&#xA;   int oneVal = Integer.parseInt(val);&#xA;   total = total * oneVal;&#xA;}&#xA;&#xA;row7.val = total + &quot;&quot;;&#xA;}"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="if(row6.val != null){&#xA;String[] vals = row6.val.split(&quot;,&quot;);&#xA;int total = 1;&#xA;&#xA;for(String val : vals){&#xA;   int oneVal = Integer.parseInt(val);&#xA;   total = total * oneVal;&#xA;}&#xA;&#xA;row7.date = row6.date;&#xA;row7.company = row6.company;&#xA;row7.val = row6.val;&#xA;row7.product = total + &quot;&quot;;&#xA;}"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_2">
