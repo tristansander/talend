@@ -408,7 +408,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(globalMap.toString());"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(globalMap.toString());&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1">
