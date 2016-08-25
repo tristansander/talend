@@ -380,7 +380,7 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="date" expression="globalMap.get(&quot;date&quot;) " type="id_Date"/>
+        <mapperTableEntries name="date" expression="(Date)globalMap.get(&quot;date&quot;) " type="id_Date"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="finalOut">
         <mapperTableEntries name="seq" expression="row4.seq " type="id_String" nullable="true"/>
