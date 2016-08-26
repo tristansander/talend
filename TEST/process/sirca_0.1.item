@@ -503,7 +503,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_2" show="false"/>
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="row6.label"/>
-      <elementValue elementRef="VALUE" value="(globalMap.get(row6.label) != null) ? ((Integer)globalMap.get(row6.label) + count) : count"/>
+      <elementValue elementRef="VALUE" value="(globalMap.get(row6.label) != null) ? ((Integer)globalMap.get(row6.label) + row6.count) : row6.count"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_2">
