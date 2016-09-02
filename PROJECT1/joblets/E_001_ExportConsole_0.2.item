@@ -81,22 +81,24 @@
     </parameters>
     <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-      <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;&lt;ExportConsole>&quot;);&#xA;System.out.println(&quot;&lt;jobname>&quot;+jobName+&quot;&lt;/jobname>&quot;);&#xA;"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;&lt;ExportConsole>&quot;);&#xA;System.out.println(&quot;&lt;jobname>&quot;+jobName+&quot;&lt;/jobname>&quot;);&#xA;&#xA;&#xA;Collection&lt;Object> objects = globalMap.values();&#xA;&#xA;for(Object object : objects){&#xA;&#x9;System.out.println(object.toString);&#xA;}"/>
       <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
       <elementParameter field="TEXT" name="LABEL" value="Start"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tJava_1"/>
     </node>
-    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="448">
+    <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1824" posY="384">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
       <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;&lt;/ExportConsole>&quot;);"/>
       <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
       <elementParameter field="TEXT" name="LABEL" value="End"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tJava_2"/>
     </node>
-    <node componentName="tFileProperties" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="448">
+    <node componentName="tFileProperties" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1216" posY="384">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileProperties_1" show="false"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
       <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileOutputDelimited_1_FILE_NAME&quot;))"/>
       <elementParameter field="CHECK" name="MD5" value="true"/>
       <elementParameter field="TEXT" name="LABEL" value="tFileProperties_1"/>
@@ -112,8 +114,9 @@
         <column key="false" length="32" name="md5" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="448">
+    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1408" posY="384">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
       <elementParameter field="MEMO_JAVA" name="CODE" value="/*&#xA;System.out.println(&quot;&lt;abs_path>&quot;+row1.abs_path+&quot;&lt;/abs_path>&quot;);&#xA;System.out.println(&quot;&lt;dirname>&quot;+row1.dirname+&quot;&lt;/dirname>&quot;);&#xA;System.out.println(&quot;&lt;basename>&quot;+row1.basename+&quot;&lt;/basename>&quot;);&#xA;System.out.println(&quot;&lt;mode_string>&quot;+row1.mode_string+&quot;&lt;/mode_string>&quot;);&#xA;System.out.println(&quot;&lt;size>&quot;+row1.size+&quot;&lt;/size>&quot;);&#xA;System.out.println(&quot;&lt;mtime>&quot;+row1.mtime+&quot;&lt;/mtime>&quot;);&#xA;System.out.println(&quot;&lt;mtime_string>&quot;+row1.mtime_string+&quot;&lt;/mtime_string>&quot;);&#xA;*/&#xA;&#xA;System.out.println(&quot;&lt;outputFile>&quot;);&#xA;&#xA;String export = input_row.toString();&#xA;String[] loop1 = export.split(&quot;\\[&quot;)[1].split(&quot;\\]&quot;)[0].split(&quot;\\,&quot;);&#xA;&#xA;for (String s: loop1) {&#xA;&#x9;String[] elements = s.split(&quot;\\=&quot;);&#xA;        System.out.print(&quot;\t&lt;&quot;+elements[0]+&quot;>&quot;);&#xA;        System.out.print(elements[1]);&#xA;&#x9;&#x9;System.out.println(&quot;&lt;/&quot;+elements[0]+&quot;>&quot;); &#xA;}&#xA;&#xA;System.out.println(&quot;\t&lt;rowcount>&quot;+((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;))+&quot;&lt;/rowcount>&quot;);&#xA;System.out.println(&quot;\t&lt;rowInserted>&quot;+((Integer)globalMap.get(&quot;tFileOutputDelimited_1_NB_LINE&quot;))+&quot;&lt;/rowInserted>&quot;);&#xA;System.out.println(&quot;&lt;/outputFile>&quot;);&#xA;"/>
       <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
       <elementParameter field="TEXT" name="LABEL" value="tJavaRow_1"/>
@@ -128,8 +131,9 @@
         <column defaultValue="" key="false" length="20" name="mtime_string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       </metadata>
     </node>
-    <node componentName="tFileRowCount" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <node componentName="tFileRowCount" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1216" posY="160">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileRowCount_1" show="false"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
       <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
       <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileOutputDelimited_1_FILE_NAME&quot;))"/>
       <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -140,17 +144,17 @@
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tFileRowCount_1"/>
     </node>
-    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFileRowCount_1">
-      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
-    </connection>
     <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileProperties_1" offsetLabelX="0" offsetLabelY="0" source="tFileProperties_1" target="tJavaRow_1">
       <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
     </connection>
     <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="tJava_2">
+      <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
     </connection>
     <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileRowCount_1" offsetLabelX="0" offsetLabelY="0" source="tFileRowCount_1" target="tFileProperties_1">
+      <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
     </connection>
     <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="TRIGGER_INPUT_1" offsetLabelX="0" offsetLabelY="0" source="TRIGGER_INPUT_1" target="tJava_1">
