@@ -97,6 +97,7 @@
       <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;C:/Users/Tristan/Desktop/Talend-Studio-20160704_1411-V6.2.1/workspace/temp&quot;" show="false"/>
       <elementParameter field="CHECK" name="CREATEDIR" value="true" show="false"/>
       <elementParameter field="TEXT" name="EXTERNAL_SORT_BUFFERSIZE" value="1000000" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="tSortRow_1"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tSortRow_1">
         <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -124,6 +125,7 @@
       </elementParameter>
       <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
       <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="tLogRow_1"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tLogRow_1">
         <column comment="" key="false" length="-1" name="key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
