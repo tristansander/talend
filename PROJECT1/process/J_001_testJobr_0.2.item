@@ -191,9 +191,9 @@
   <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1" show="false"/>
     <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
-    <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;      "/>
-    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="System.out.println(&quot;&lt;ExportConsole>&quot;);&#xA;System.out.println(&quot;&lt;jobname>&quot;+jobName+&quot;&lt;/jobname>&quot;);&#xA;&#xA;&#xA;java.util.Set&lt;String> keys = globalMap.keySet();&#xA;&#xA;for(String key : keys){&#xA;&#x9;Object obj = globalMap.get(key);&#xA;&#x9;row1.key = key;&#xA;&#x9;row1.value = obj;&#xA;}&#xA;&#xA;"/>
-    <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;      "/>
+    <elementParameter field="MEMO_JAVA" name="CODE_START" value="System.out.println(&quot;&lt;ExportConsole>&quot;);&#xA;System.out.println(&quot;&lt;jobname>&quot;+jobName+&quot;&lt;/jobname>&quot;);&#xA;&#xA;&#xA;java.util.Set&lt;String> keys = globalMap.keySet();&#xA;&#xA;for(String key : keys){"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="&#xA;&#x9;Object obj = globalMap.get(key);&#xA;&#x9;row1.key = key;&#xA;&#x9;row1.value = obj;&#xA;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_END" value="}"/>
     <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
     <elementParameter field="CHECK" name="Version_V3_2" value="false" show="false"/>
     <elementParameter field="CHECK" name="Version_V4.0" value="true" show="false"/>
