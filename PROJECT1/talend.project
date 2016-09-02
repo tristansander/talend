@@ -471,4 +471,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_kdDSEm5BEeavdZpm38w38A" login="tristan.sander@servian.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_9H6CQW5BEeaSPJs6Br22GA" login="adrien.follin@servian.com" firstName="Adrien" lastName="Follin" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_hqShcXCwEeauE8xNRTuPHQ" login="atanas.chakalov@servian.com" firstName="Atanas" lastName="Chakalov" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
