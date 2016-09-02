@@ -81,7 +81,7 @@
     </parameters>
     <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-      <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;&lt;ExportConsole>&quot;);&#xA;System.out.println(&quot;&lt;jobname>&quot;+jobName+&quot;&lt;/jobname>&quot;);&#xA;&#xA;&#xA;java.util.Collection&lt;Object> objects = globalMap.values();&#xA;&#xA;for(Object object : objects){&#xA;&#x9;System.out.println(object.toString());&#xA;}"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;&lt;ExportConsole>&quot;);&#xA;System.out.println(&quot;&lt;jobname>&quot;+jobName+&quot;&lt;/jobname>&quot;);&#xA;&#xA;&#xA;java.util.Set&lt;String> keys = globalMap.keySet();&#xA;&#xA;for(String key : keys){&#xA;&#x9;Object obj = globalMap.get(key);&#xA;&#x9;System.out.println(key + &quot; : &quot; + obj);&#xA;}"/>
       <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
       <elementParameter field="TEXT" name="LABEL" value="Start"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
