@@ -123,6 +123,7 @@
       <relatedItems xmi:id="_TLKOP2_bEeaY8JO-iTC2dw" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_TLKOQG_bEeaY8JO-iTC2dw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_TLKOQW_bEeaY8JO-iTC2dw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_K8lDUHM1EeafBZFfWlJZiw" id="_jZp9kHMyEeafBZFfWlJZiw" version="Latest" type="job"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_TLKOQm_bEeaY8JO-iTC2dw">
       <baseItem xmi:id="_TLKOQ2_bEeaY8JO-iTC2dw" id="_QTEGIG8fEeaIffvJjfnD0w" version="0.1" type="joblet"/>
