@@ -456,7 +456,7 @@
         <mapperTableEntries name="message" type="id_String" nullable="true"/>
         <mapperTableEntries name="duration" type="id_Long" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row5" expressionFilter="(row5.key.startsWith(row4.origin)) " activateExpressionFilter="true" activateCondensedTool="true" matchingMode="ALL_ROWS" lookupMode="RELOAD">
+      <inputTables sizeState="INTERMEDIATE" name="row5" expressionFilter="(row5.key != null &amp;&amp; row4.origin != null &amp;&amp; row5.key.startsWith(row4.origin)) " activateExpressionFilter="true" activateCondensedTool="true" matchingMode="ALL_ROWS" lookupMode="RELOAD">
         <mapperTableEntries name="key" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="value" type="id_Object" nullable="true"/>
       </inputTables>
