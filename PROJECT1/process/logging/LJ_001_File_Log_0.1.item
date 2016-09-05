@@ -127,7 +127,7 @@
   </parameters>
   <node componentName="tFileProperties" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="928" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileProperties_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileOutputDelimited_1_FILE_NAME&quot;))"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.value.toString()"/>
     <elementParameter field="CHECK" name="MD5" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="tFileProperties_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
