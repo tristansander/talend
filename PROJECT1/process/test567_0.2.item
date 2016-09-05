@@ -123,7 +123,7 @@
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
       <elementValue elementRef="id" value="&quot;1&quot;"/>
-      <elementValue elementRef="firstname" value="&quot;sander&quot;"/>
+      <elementValue elementRef="firstname" value="&quot;Version3&quot;"/>
       <elementValue elementRef="id" value="&quot;2&quot;"/>
       <elementValue elementRef="firstname" value="&quot;T&quot;"/>
     </elementParameter>
