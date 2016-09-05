@@ -2,8 +2,8 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="jobName" prompt="jobName?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="moment" prompt="moment?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="systemPID" prompt="systemPID?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="moment" prompt="moment?" promptNeeded="false" type="id_Date" value=""/>
+    <contextParameter comment="" name="systemPID" prompt="systemPID?" promptNeeded="false" type="id_Long" value=""/>
     <contextParameter comment="" name="project" prompt="project?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="job" prompt="job?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="jobVersion" prompt="jobVersion?" promptNeeded="false" type="id_String" value=""/>
@@ -11,9 +11,9 @@
     <contextParameter comment="" name="component" prompt="component?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="messageType" prompt="messageType?" promptNeeded="false" type="id_String" value=""/>
     <contextParameter comment="" name="message" prompt="message?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="duration" prompt="duration?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="duration" prompt="duration?" promptNeeded="false" type="id_Long" value=""/>
     <contextParameter comment="" name="key" prompt="key?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="value" prompt="value?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="value" prompt="value?" promptNeeded="false" type="id_Object" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
