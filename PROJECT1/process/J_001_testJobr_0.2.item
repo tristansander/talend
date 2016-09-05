@@ -465,7 +465,7 @@
   <node componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_2" show="false"/>
     <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
-    <elementParameter field="MEMO_JAVA" name="CODE_START" value="System.out.println(&quot;&lt;ExportConsole>&quot;);&#xA;System.out.println(&quot;&lt;jobname>&quot;+jobName+&quot;&lt;/jobname>&quot;);&#xA;&#xA;&#xA;java.util.Set&lt;String> keys = globalMap.keySet();&#xA;&#xA;for(String key : keys){"/>
+    <elementParameter field="MEMO_JAVA" name="CODE_START" value="&#xA;&#xA;&#xA;java.util.Set&lt;String> keys = globalMap.keySet();&#xA;&#xA;for(String key : keys){"/>
     <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="&#xA;&#x9;Object obj = globalMap.get(key);&#xA;&#x9;row5.key = key;&#xA;&#x9;row5.value = obj;&#xA;&#xA;"/>
     <elementParameter field="MEMO_JAVA" name="CODE_END" value="}"/>
     <elementParameter field="CHECK" name="Version_V2_0" value="false" show="false"/>
