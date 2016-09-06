@@ -149,14 +149,14 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="tLog">
         <mapperTableEntries name="rowId" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="Name" expression="source.firstName +&quot; &quot;+ source.lastName " type="id_String" nullable="true"/>
-        <mapperTableEntries name="name_1" expression="row3.name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Name" expression="tRowGenerator_1.firstName +&quot; &quot;+ tRowGenerator_1.lastName " type="id_String" nullable="true"/>
+        <mapperTableEntries name="name_1" expression="tFileInputDelimited_1.name " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="source" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="tRowGenerator_1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="firstName" type="id_String" nullable="true"/>
         <mapperTableEntries name="lastName" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="tFileInputDelimited_1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="id" type="id_String" nullable="true"/>
         <mapperTableEntries name="name" type="id_String" nullable="true"/>
       </inputTables>
@@ -474,9 +474,9 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <connection connectorName="FLOW" label="source" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMap_1">
+  <connection connectorName="FLOW" label="tRowGenerator_1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="source" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
@@ -491,7 +491,7 @@
     <elementParameter field="CHECK" name="USEROWLABEL" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLog" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+  <connection connectorName="FLOW" label="tFileInputDelimited_1" lineStyle="8" metaname="tFileInputDelimited_1" offsetLabelX="7" offsetLabelY="-3" source="tFileInputDelimited_1" target="tMap_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="name"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
@@ -503,7 +503,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="false" show="false"/>
     <elementParameter field="TEXT" name="METTERLABEL" value="&quot;input1&quot;" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" source="tFileExist_1" target="tFileInputDelimited_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
@@ -513,15 +513,15 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="normal_event" lineStyle="0" metaname="normal_event" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tJavaRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="normal_event" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="file_event" lineStyle="0" metaname="file_event" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tRunJob_1">
+  <connection connectorName="FLOW" label="file_event" lineStyle="0" metaname="file_event" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tRunJob_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="file_event" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="normal_event" lineStyle="0" metaname="normal_event" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="normal_event" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="8" metaname="tJavaFlex_2" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_2" target="tMap_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
