@@ -112,7 +112,7 @@
     <routinesParameter id="_LGTS8G5GEeaCydAWDZAJuQ" name="TalendDate"/>
     <routinesParameter id="_LGVIIG5GEeaCydAWDZAJuQ" name="TalendString"/>
   </parameters>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="32">
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="100" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
@@ -332,7 +332,7 @@
       <column comment="" key="false" length="-1" name="value" nullable="true" pattern="" precision="-1" sourceType="" type="id_Object" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="matched" expression="(row5.key != null &amp;&amp; row4.origin != null &amp;&amp; row5.key.startsWith(row4.origin)) " type="id_Boolean"/>
         <mapperTableEntries name="isFile" expression="row5.value != null &amp;&amp; &#xD;&#xA;(&#xD;&#xA;  (row5.key.toUpperCase().endsWith(&quot;FILE_NAME&quot;)) &#xD;&#xA;  || &#xD;&#xA;  (row5.key.toUpperCase().endsWith(&quot;FILENAME&quot;))&#xD;&#xA;) " type="id_Boolean" nullable="true"/>
@@ -504,15 +504,15 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="normal_event" lineStyle="0" metaname="normal_event" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tJavaRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="normal_event" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="file_event" lineStyle="0" metaname="file_event" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tRunJob_1">
+  <connection connectorName="FLOW" label="file_event" lineStyle="0" metaname="file_event" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tRunJob_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="file_event" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="normal_event" lineStyle="0" metaname="normal_event" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tJavaRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="normal_event" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="8" metaname="tJavaFlex_2" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_2" target="tMap_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
