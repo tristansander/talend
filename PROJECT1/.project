@@ -10,4 +10,11 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>temp/test_0.1.jobscript</name>
+			<type>1</type>
+			<location>C:/Users/Tristan/Desktop/Talend-Studio-20160704_1411-V6.2.1/workspace/.repositories/977225067/branches/post/PROJECT1/code/jobscripts/test_0.1.item</location>
+		</link>
+	</linkedResources>
 </projectDescription>
