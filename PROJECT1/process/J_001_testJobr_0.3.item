@@ -470,7 +470,7 @@
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="/*Field[] fields = input_row.getClass().getFields();&#xA;for(Field field : fields){&#xA;&#x9;System.out.println(field.toString());&#xA;}&#xA;*/&#xA;&#xA;&#xA;Class[] classes = this.getClass().getDeclaredClasses();&#xA;for(Class tempClass : classes){&#xA;&#xA;&#x9;if(tempClass.getName().endsWith(&quot;Struct&quot;)){&#xA;&#x9;&#x9;System.out.println(&quot;Class: &quot; + tempClass.getCanonicalName());&#x9;&#xA;&#xA;&#x9;&#x9;Object object = (Object)tempClass.newInstance();&#xA;&#x9;&#x9;System.out.println(object.class.getMethod(&quot;toLogString&quot;).invoke());&#xA;&#xA;&#x9;}&#xA;}"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.lang.reflect.Field;&#xA;import java.lang.Class;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.lang.reflect.Field;&#xA;import java.lang.Class;&#xA;import java.lang.Object;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
