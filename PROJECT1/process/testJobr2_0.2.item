@@ -258,11 +258,12 @@
   </node>
   <node componentName="tFileExist" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="-448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExist_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="FILE" name="FILE_NAME" value="&quot;D:\\Temp\\test1.txt&quot;"/>
     <elementParameter field="TEXT" name="LABEL" value="CheckInputFile1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="LJ_001_Extract_Metadata" componentVersion="0.2" offsetLabelX="0" offsetLabelY="0" posX="448" posY="384">
+  <node componentName="LJ_001_Extract_Metadata" componentVersion="0.2" offsetLabelX="0" offsetLabelY="0" posX="448" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="LJ_001_Extract_Metadata_1"/>
     <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
