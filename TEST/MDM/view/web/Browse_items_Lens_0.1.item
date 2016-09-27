@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_ak4rUIUEEeacN5nvr07Pjw" name="Browse_items_Lens" description="[EN:Lens]" transformerPK="">
-  <searchableBusinessElements>Lens/ID</searchableBusinessElements>
   <searchableBusinessElements>Lens/LensName</searchableBusinessElements>
   <searchableBusinessElements>Lens/Vendor</searchableBusinessElements>
-  <searchableBusinessElements>Lens/ReleaseYear</searchableBusinessElements>
-  <searchableBusinessElements>Lens/LensCategory</searchableBusinessElements>
   <viewableBusinessElements>Lens/ID</viewableBusinessElements>
   <viewableBusinessElements>Lens/LensName</viewableBusinessElements>
   <viewableBusinessElements>Lens/Vendor</viewableBusinessElements>
   <viewableBusinessElements>Lens/ReleaseYear</viewableBusinessElements>
   <viewableBusinessElements>Lens/LensCategory</viewableBusinessElements>
-  <isTransformerActive xmi:id="_ak4rUYUEEeacN5nvr07Pjw"/>
+  <viewableBusinessElements>Lens/MinFocalLength</viewableBusinessElements>
+  <viewableBusinessElements>Lens/MaxFocalLength</viewableBusinessElements>
+  <viewableBusinessElements>Lens/MinAperture</viewableBusinessElements>
+  <viewableBusinessElements>Lens/MaxAperture</viewableBusinessElements>
+  <viewableBusinessElements>Lens/MinFocusDistanceMM</viewableBusinessElements>
+  <viewableBusinessElements>Lens/FilterSizeMM</viewableBusinessElements>
+  <isTransformerActive xmi:id="_xHShQIUEEeacN5nvr07Pjw"/>
 </mdmserverobject:WSViewE>
