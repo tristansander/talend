@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSMenuE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_IxODIIUJEeacN5nvr07Pjw" name="CrossReference" description="CrossReference" lastServerName="AWS">
+  <menuEntries xmi:id="_IxODIYUJEeacN5nvr07Pjw" id="CrossReference" application="CrossReference" context="crossreference" icon="">
+    <descriptions xmi:id="_IxODIoUJEeacN5nvr07Pjw" language="en" label="Cross Referencing"/>
+    <descriptions xmi:id="_IxODI4UJEeacN5nvr07Pjw" language="fr" label="Références Croisées"/>
+  </menuEntries>
+</mdmserverobject:WSMenuE>
