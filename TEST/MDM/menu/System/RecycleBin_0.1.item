@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSMenuE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_51x-kIUIEeacN5nvr07Pjw" name="RecycleBin" description="RecycleBin" lastServerName="AWS">
+  <menuEntries xmi:id="_51x-kYUIEeacN5nvr07Pjw" id="RecycleBin" application="RecycleBin" context="recyclebin" icon="">
+    <descriptions xmi:id="_51x-koUIEeacN5nvr07Pjw" language="en" label="Recycle Bin"/>
+    <descriptions xmi:id="_51x-k4UIEeacN5nvr07Pjw" language="fr" label="Corbeille"/>
+  </menuEntries>
+</mdmserverobject:WSMenuE>
