@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSMenuE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="__4_eMIUIEeacN5nvr07Pjw" name="BrowseRecordsInStaging" description="BrowseRecordsInStaging" lastServerName="AWS">
+  <menuEntries xmi:id="__4_eMYUIEeacN5nvr07Pjw" id="BrowseRecordsInStaging" application="BrowseRecordsInStaging" context="browserecords" icon="">
+    <descriptions xmi:id="__4_eMoUIEeacN5nvr07Pjw" language="en" label="Staging Data Browser"/>
+    <descriptions xmi:id="__4_eM4UIEeacN5nvr07Pjw" language="fr" label="Explorateur des données Staging"/>
+  </menuEntries>
+</mdmserverobject:WSMenuE>
