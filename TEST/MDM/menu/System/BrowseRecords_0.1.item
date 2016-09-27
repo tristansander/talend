@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSMenuE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_LgMK0IUJEeacN5nvr07Pjw" name="BrowseRecords" description="BrowseRecords" lastServerName="AWS">
+  <menuEntries xmi:id="_LgMK0YUJEeacN5nvr07Pjw" id="BrowseRecords" application="BrowseRecords" context="browserecords" icon="">
+    <descriptions xmi:id="_LgMK0oUJEeacN5nvr07Pjw" language="en" label="Master Data Browser"/>
+    <descriptions xmi:id="_LgMK04UJEeacN5nvr07Pjw" language="fr" label="Explorateur des données Master"/>
+  </menuEntries>
+</mdmserverobject:WSMenuE>
