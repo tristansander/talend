@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSMenuE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_8yuQ0IUIEeacN5nvr07Pjw" name="StagingArea" description="" lastServerName="AWS">
+  <menuEntries xmi:id="_8yuQ0YUIEeacN5nvr07Pjw" id="StagingArea" application="Stagingarea" context="stagingarea" icon="">
+    <descriptions xmi:id="_8yuQ0oUIEeacN5nvr07Pjw" language="en" label="Staging Area"/>
+    <descriptions xmi:id="_8yuQ04UIEeacN5nvr07Pjw" language="fr" label="Staging Area"/>
+  </menuEntries>
+</mdmserverobject:WSMenuE>
