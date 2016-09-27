@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSMenuE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_EEToEIUJEeacN5nvr07Pjw" name="Search" description="Search" lastServerName="AWS">
+  <menuEntries xmi:id="_EEToEYUJEeacN5nvr07Pjw" id="Search" application="Search" context="search" icon="">
+    <descriptions xmi:id="_EEToEoUJEeacN5nvr07Pjw" language="en" label="Search"/>
+    <descriptions xmi:id="_EEToE4UJEeacN5nvr07Pjw" language="fr" label="Recherche"/>
+  </menuEntries>
+</mdmserverobject:WSMenuE>
