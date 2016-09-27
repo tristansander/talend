@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmmetadata:MDMServerDef xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmmetadata="http://www.talend.org/metadata/mdmserverdef" xmi:id="_g1mrcIRUEeacN5nvr07Pjw" name="AWS" label="" host="ec2-54-206-17-240.ap-southeast-2.compute.amazonaws.com" passwd="gYS5jltDdzLSfHIqaDxbXg==" url="http://ec2-54-206-17-240.ap-southeast-2.compute.amazonaws.com:8180/talendmdm/services/soap" user="administrator" algorithm="CommonV2"/>
