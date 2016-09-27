@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSMenuE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_FkyjYIUJEeacN5nvr07Pjw" name="WelcomePortal" description="WelcomePortal" lastServerName="AWS">
+  <menuEntries xmi:id="_FkyjYYUJEeacN5nvr07Pjw" id="WelcomePortal" application="WelcomePortal" context="welcomeportal" icon="">
+    <descriptions xmi:id="_FkyjYoUJEeacN5nvr07Pjw" language="en" label="Welcome"/>
+    <descriptions xmi:id="_FkyjY4UJEeacN5nvr07Pjw" language="fr" label="Bienvenue"/>
+  </menuEntries>
+</mdmserverobject:WSMenuE>
