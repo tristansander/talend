@@ -9,7 +9,15 @@
   <xsd:complexType name="Lens"> 
     <xsd:all> 
       <xsd:element maxOccurs="1" minOccurs="1" name="ID" type="AUTO_INCREMENT"/>  
-      <xsd:element maxOccurs="1" minOccurs="1" name="LensName" type="xsd:string"/>  
+      <xsd:element maxOccurs="1" minOccurs="1" name="LensName" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Label_EN">Lens</xsd:appinfo>
+<xsd:appinfo source="X_Label_DE">Objektivname</xsd:appinfo>
+<xsd:appinfo source="X_Label_FR">Objectif</xsd:appinfo>
+<xsd:appinfo source="X_Description_EN">The full name of the lens as engraved on the lens.</xsd:appinfo>
+<xsd:appinfo source="X_Description_DE">Der vollstaendige Name wie am Objektiv ablesbar.</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>  
       <xsd:element maxOccurs="1" minOccurs="0" name="Vendor" type="xsd:string"/>  
       <xsd:element maxOccurs="1" minOccurs="0" name="ReleaseYear" type="xsd:integer"/>  
       <xsd:element maxOccurs="1" minOccurs="0" name="LensCategory" type="xsd:string"/>  
