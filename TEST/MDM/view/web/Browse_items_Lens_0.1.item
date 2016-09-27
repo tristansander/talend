@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_ak4rUIUEEeacN5nvr07Pjw" name="Browse_items_Lens" description="[EN:Lens]" transformerPK="">
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_ak4rUIUEEeacN5nvr07Pjw" name="Browse_items_Lens" description="[EN:Lens]" timestamp="1475016625992" digestValue="9d7f8a0e51881f8f4dc2518722e33898" lastServerName="AWS" transformerPK="">
   <searchableBusinessElements>Lens/LensName</searchableBusinessElements>
   <searchableBusinessElements>Lens/Vendor</searchableBusinessElements>
   <viewableBusinessElements>Lens/ID</viewableBusinessElements>
