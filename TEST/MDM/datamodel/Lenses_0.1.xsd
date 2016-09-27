@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="Lens" type="Lens">
+<xsd:unique name="Lens">
+<xsd:selector xpath="."/>
+<xsd:field xpath="ID"/>
+</xsd:unique>
+</xsd:element>
+<xsd:complexType name="Lens">
+<xsd:all>
+<xsd:element maxOccurs="1" minOccurs="1" name="ID" type="AUTO_INCREMENT"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="LensName" type="xsd:string"/>
+</xsd:all>
+</xsd:complexType>
+<xsd:simpleType name="AUTO_INCREMENT">
+<xsd:restriction base="xsd:integer">
+<xsd:pattern value="[\-+]?[0-9]+"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:schema>
