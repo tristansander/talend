@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSRoleE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_NMsgYIU_Eeab09vDHC1J_A" name="System_Admin" description="[EN:Administrator]" lastServerName="AWS">
+<mdmserverobject:WSRoleE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_NMsgYIU_Eeab09vDHC1J_A" name="System_Admin" description="[EN:Administrator]" timestamp="1475041941399" digestValue="d6d8b9600d1eeb630972dd517ab74cff" lastServerName="AWS">
   <specification xmi:id="_NMsgYYU_Eeab09vDHC1J_A" admin="true" objectType="Transformer V2"/>
   <specification xmi:id="_NMsgYoU_Eeab09vDHC1J_A" admin="true" objectType="Data Cluster">
     <instance xmi:id="_NMsgY4U_Eeab09vDHC1J_A" instanceName="UpdateReport" writable="true">

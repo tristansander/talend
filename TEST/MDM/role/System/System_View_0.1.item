@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSRoleE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_RIBtgIU_Eeab09vDHC1J_A" name="System_View" description="[EN:Viewer User][FR:Viewer User]" lastServerName="AWS">
+<mdmserverobject:WSRoleE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_RIBtgIU_Eeab09vDHC1J_A" name="System_View" description="[EN:Viewer User][FR:Viewer User]" timestamp="1475041941595" digestValue="dd2c4a3d06433c55e7e56d6b512addc8" lastServerName="AWS">
   <specification xmi:id="_RIBtgYU_Eeab09vDHC1J_A" objectType="Transformer V2">
     <instance xmi:id="_RIBtgoU_Eeab09vDHC1J_A" instanceName=".*"/>
   </specification>
