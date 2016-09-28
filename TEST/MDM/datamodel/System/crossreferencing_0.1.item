@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSDataModelE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_9H0vYIUOEeacN5nvr07Pjw" name="crossreferencing" description="MDM Cross Referencing Table Definitions" lastServerName="AWS"/>
+<mdmserverobject:WSDataModelE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_FI7o0IVAEeab09vDHC1J_A" name="crossreferencing" description="MDM Cross Referencing Table Definitions" lastServerName="AWS"/>
