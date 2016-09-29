@@ -192,16 +192,16 @@
       <column comment="" key="false" length="10" name="maxfocallength" nullable="true" originalDbColumnName="max_focal_length" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="minaperture" nullable="true" originalDbColumnName="min_aperture" pattern="" precision="0" sourceType="FLOAT" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="minaperture" nullable="true" originalDbColumnName="min_aperture" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="maxaperture" nullable="true" originalDbColumnName="max_aperture" pattern="" precision="0" sourceType="FLOAT" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="maxaperture" nullable="true" originalDbColumnName="max_aperture" pattern="" precision="0" sourceType="DOUBLE" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="minfocusdistancemm" nullable="true" originalDbColumnName="min_focus_distance_mm" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="5" name="filtersizemm" nullable="true" originalDbColumnName="filter_size_mm" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="filtersizemm" nullable="true" originalDbColumnName="filter_size_mm" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -255,10 +255,10 @@
         <mapperTableEntries name="lenscategory" type="id_String" nullable="true"/>
         <mapperTableEntries name="minfocallength" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="maxfocallength" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="minaperture" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maxaperture" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="minaperture" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="maxaperture" type="id_Double" nullable="true"/>
         <mapperTableEntries name="minfocusdistancemm" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="filtersizemm" type="id_Short" nullable="true"/>
+        <mapperTableEntries name="filtersizemm" type="id_Integer" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
