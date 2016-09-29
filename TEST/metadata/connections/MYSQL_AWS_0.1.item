@@ -52,12 +52,12 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_9cVwaYXeEeab09vDHC1J_A" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_9cVwaoXeEeab09vDHC1J_A" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_9cVwa4XeEeab09vDHC1J_A" name="min_aperture" label="minaperture" length="-1" sourceType="DOUBLE" talendType="id_Double">
+      <feature xsi:type="relational:TdColumn" xmi:id="_9cVwa4XeEeab09vDHC1J_A" name="min_aperture" label="minaperture" length="-1" sourceType="FLOAT" talendType="id_Float">
         <taggedValue xmi:id="_9cVwbIXeEeab09vDHC1J_A" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_9cVwbYXeEeab09vDHC1J_A" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_9cVwboXeEeab09vDHC1J_A" name="DECIMAL" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_9cVwb4XeEeab09vDHC1J_A" name="max_aperture" label="maxaperture" length="-1" sourceType="DOUBLE" talendType="id_Double">
+      <feature xsi:type="relational:TdColumn" xmi:id="_9cVwb4XeEeab09vDHC1J_A" name="max_aperture" label="maxaperture" length="-1" sourceType="FLOAT" talendType="id_Float">
         <taggedValue xmi:id="_9cVwcIXeEeab09vDHC1J_A" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_9cVwcYXeEeab09vDHC1J_A" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_9cVwcoXeEeab09vDHC1J_A" name="DECIMAL" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
