@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_n-UvkIXeEeab09vDHC1J_A" name="MYSQL_AWS" id="_gTjcQIXeEeab09vDHC1J_A" label="MYSQL_AWS" dataPackage="_oFfHgIXeEeab09vDHC1J_A" DatabaseType="MySQL" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://ec2-54-206-17-240.ap-southeast-2.compute.amazonaws.com:3306/storelondon?noDatetimeStringSync=true" dbVersionString="MARIADB" Port="3306" Username="talenduser" Password="mGeXLdOUodROxMRgsx4WkA==" ServerName="ec2-54-206-17-240.ap-southeast-2.compute.amazonaws.com" DatasourceName="" FileFieldName="" SID="storelondon" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_n-WkwIXeEeab09vDHC1J_A" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_n-r78IXeEeab09vDHC1J_A" tag="package filter" value=""/>
+    <taggedValue xmi:id="_n-z3wIXeEeab09vDHC1J_A" tag="Status" value=""/>
+    <taggedValue xmi:id="_n-z3wYXeEeab09vDHC1J_A" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_n-z3woXeEeab09vDHC1J_A" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_n-z3w4XeEeab09vDHC1J_A" tag="Description" value=""/>
+    <taggedValue xmi:id="_n-z3xIXeEeab09vDHC1J_A" tag="Author" value=""/>
+    <taggedValue xmi:id="_n-z3xYXeEeab09vDHC1J_A" tag="otherParameter"/>
+    <taggedValue xmi:id="_oBy6UIXeEeab09vDHC1J_A" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_oBy6UYXeEeab09vDHC1J_A" tag="DB ProductVersion" value="5.5.50-MariaDB"/>
+    <taggedValue xmi:id="_oBy6UoXeEeab09vDHC1J_A" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_n-WkwYXeEeab09vDHC1J_A" key="CONN_PARA_KEY_USERNAME" value="talenduser"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_oFfHgIXeEeab09vDHC1J_A" name="storelondon" dataManager="_n-UvkIXeEeab09vDHC1J_A"/>
+</xmi:XMI>
