@@ -242,8 +242,8 @@
         <mapperTableEntries name="LensCategory" expression="row1.lenscategory" type="id_String" nullable="true"/>
         <mapperTableEntries name="MinFocalLength" expression="row1.minfocallength" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="MaxFocalLength" expression="row1.maxfocallength" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="MinAperture" expression="row1.minaperture" type="id_Double" nullable="true"/>
-        <mapperTableEntries name="MaxAperture" expression="row1.maxaperture" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MinAperture" expression="Double.parseDouble(row1.minaperture.toString()) " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MaxAperture" expression="Double.parseDouble(row1.maxaperture.toString()) " type="id_Double" nullable="true"/>
         <mapperTableEntries name="MinFocusDistanceMM" expression="row1.minfocusdistancemm" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="FilterSizeMM" expression="row1.filtersizemm" type="id_Integer" nullable="true"/>
       </outputTables>
