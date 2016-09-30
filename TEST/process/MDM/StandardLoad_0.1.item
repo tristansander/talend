@@ -134,7 +134,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `lens_metadata`.`ID`, &#xA;  `lens_metadata`.`lens`, &#xA;  `lens_metadata`.`vendor`, &#xA;  `lens_metadata`.`release_year`, &#xA;  `lens_metadata`.`lens_category`, &#xA;  `lens_metadata`.`min_focal_length`, &#xA;  `lens_metadata`.`max_focal_length`, &#xA;  `lens_metadata`.`min_aperture`, &#xA;  `lens_metadata`.`max_aperture`, &#xA;  `lens_metadata`.`min_focus_distance_mm`, &#xA;  `lens_metadata`.`filter_size_mm`&#xA;FROM `lens_metadata`&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  `lens_metadata`.`talend_mdm_key`, &#xA;  `lens_metadata`.`lens_name`, &#xA;  `lens_metadata`.`vendor`, &#xA;  `lens_metadata`.`release_year`, &#xA;  `lens_metadata`.`lens_category`, &#xA;  `lens_metadata`.`min_focal_length`, &#xA;  `lens_metadata`.`max_focal_length`, &#xA;  `lens_metadata`.`min_aperture`, &#xA;  `lens_metadata`.`max_aperture`, &#xA;  `lens_metadata`.`min_focus_distance_mm`, &#xA;  `lens_metadata`.`filter_size_mm`&#xA;FROM `lens_metadata`&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -171,10 +171,10 @@
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="lens_metadata" name="tMysqlInput_1">
-      <column comment="" key="true" length="10" name="ID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="true" length="10" name="ID" nullable="true" originalDbColumnName="talend_mdm_key" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="100" name="lensName" nullable="true" originalDbColumnName="lens" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="100" name="lensName" nullable="true" originalDbColumnName="lens_name" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="30" name="vendor" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -245,7 +245,7 @@
       <column comment="" key="false" length="-1" name="filtersizemm" nullable="true" originalDbColumnName="filter_size_mm" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="tOut">
         <mapperTableEntries name="ID" expression="" type="id_Integer" nullable="true"/>
@@ -509,14 +509,14 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="tOut" lineStyle="0" metaname="tOut" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tMDMOutput_1">
+  <connection connectorName="FLOW" label="tt" lineStyle="0" metaname="tt" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tt" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="tOut" lineStyle="0" metaname="tOut" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tMDMOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOut" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="tt" lineStyle="0" metaname="tt" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tLogRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tt" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1" show="false"/>
