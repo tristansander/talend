@@ -282,10 +282,10 @@
     <elementParameter field="PASSWORD" name="PASSWORD" value="fmyLBcXusWxdAhEGcREikA=="/>
     <elementParameter field="TEXT" name="DATAMODEL" value="&quot;Lenses&quot;"/>
     <elementParameter field="TEXT" name="DATACLUSTER" value="&quot;Lenses&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="CONTAINER_TYPE" value="MASTER"/>
+    <elementParameter field="CLOSED_LIST" name="CONTAINER_TYPE" value="STAGING"/>
     <elementParameter field="TABLE" name="RETURN_IDS"/>
     <elementParameter field="CHECK" name="ISUPDATE" value="false"/>
-    <elementParameter field="CHECK" name="WITHREPORT" value="false"/>
+    <elementParameter field="CHECK" name="WITHREPORT" value="false" show="false"/>
     <elementParameter field="TEXT" name="SOURCE" value="&quot;TOS&quot;" show="false"/>
     <elementParameter field="CHECK" name="ISINVOKE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ADD_TASKID" value="false"/>
