@@ -298,7 +298,7 @@
     <elementParameter field="CHECK" name="PARTIAL_DELETE" value="false" show="false"/>
     <elementParameter field="TEXT" name="KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="POSITION" value="" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="TEXT" name="COMMIT_LEVEL" value="200"/>
     <elementParameter field="TABLE" name="ROOT" show="false">
