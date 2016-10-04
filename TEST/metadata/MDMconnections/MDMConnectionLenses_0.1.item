@@ -58,7 +58,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IJyUIn4EeaHcqqdT0yeSQ" label="Id" talendType="id_Integer"/>
     </ownedElement>
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_L6cJ4IXlEeab09vDHC1J_A" id="_IHjHEIXlEeab09vDHC1J_A" label="LensOut">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4YXlEeab09vDHC1J_A" label="Id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4YXlEeab09vDHC1J_A" label="Id" talendType="id_Integer" key="true"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4oXlEeab09vDHC1J_A" label="LensName" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ44XlEeab09vDHC1J_A" label="Vendor" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ5IXlEeab09vDHC1J_A" label="ReleaseYear" talendType="id_Integer"/>
