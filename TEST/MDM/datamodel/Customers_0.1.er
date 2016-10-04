@@ -2,9 +2,27 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ermodel="http://org.talend.mdm.datamodel.ermodel/1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
   <ermodel:ModelContainer xmi:id="_0Hg-AIR1EeacN5nvr07Pjw">
     <entityContainer xmi:type="ermodel:EntityContainer" xmi:id="_0HhlEIR1EeacN5nvr07Pjw"/>
-    <typeContainer xmi:type="ermodel:TypeContainer" xmi:id="_0HhlEYR1EeacN5nvr07Pjw"/>
+    <typeContainer xmi:type="ermodel:TypeContainer" xmi:id="_0HhlEYR1EeacN5nvr07Pjw">
+      <types xmi:type="ermodel:ComplexType" xmi:id="_eRFlIYqHEeaHcqqdT0yeSQ" name="anyType" namespace="http://www.w3.org/2001/XMLSchema" compositor="Sequence"/>
+      <types xmi:type="ermodel:SimpleType" xmi:id="_eRFlIIqHEeaHcqqdT0yeSQ" name="anyType" namespace="http://www.w3.org/2001/XMLSchema" subTypes="_eRE-EIqHEeaHcqqdT0yeSQ"/>
+      <types xmi:type="ermodel:SimpleType" xmi:id="_eRE-EIqHEeaHcqqdT0yeSQ" name="anySimpleType" namespace="http://www.w3.org/2001/XMLSchema" superType="_eRFlIIqHEeaHcqqdT0yeSQ"/>
+    </typeContainer>
   </ermodel:ModelContainer>
   <notation:Diagram xmi:id="_0IPWwIR1EeacN5nvr07Pjw" type="ERmodel" element="_0Hg-AIR1EeacN5nvr07Pjw" name="Customers_0.1.er" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_cYuVUIqHEeaHcqqdT0yeSQ" type="2002" element="_0HhlEYR1EeacN5nvr07Pjw">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cYuVVYqHEeaHcqqdT0yeSQ" type="7002"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cYuVUYqHEeaHcqqdT0yeSQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cYuVUoqHEeaHcqqdT0yeSQ" fontName=".SF NS Text"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cYuVU4qHEeaHcqqdT0yeSQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cYuVVIqHEeaHcqqdT0yeSQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_cYu8YIqHEeaHcqqdT0yeSQ" type="2006" element="_0HhlEIR1EeacN5nvr07Pjw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cYu8ZYqHEeaHcqqdT0yeSQ" type="7003"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_cYu8YYqHEeaHcqqdT0yeSQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cYu8YoqHEeaHcqqdT0yeSQ" fontName=".SF NS Text"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_cYu8Y4qHEeaHcqqdT0yeSQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cYu8ZIqHEeaHcqqdT0yeSQ"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_0IPWwYR1EeacN5nvr07Pjw"/>
   </notation:Diagram>
 </xmi:XMI>
