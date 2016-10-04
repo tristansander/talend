@@ -378,9 +378,7 @@
     <elementParameter field="CHECK" name="STORE_FLOW" value="true" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="LensOut"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="LensOut" name="tMDMOutput_1">
-      <column comment="" key="false" length="-1" name="xml" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
+    <metadata connector="FLOW" label="LensOut" name="tMDMOutput_1"/>
     <metadata connector="OUTPUT" label="LensOut" name="OUTPUT">
       <column comment="" key="false" length="-1" name="xml" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
