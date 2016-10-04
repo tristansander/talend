@@ -1,87 +1,89 @@
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">    
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <xsd:element name="Lens" type="Lens"> 
-        <xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-        <xsd:unique name="Lens"> 
+    <xsd:annotation> 
+      <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+      <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+    </xsd:annotation>  
+    <xsd:unique name="Lens"> 
       <xsd:selector xpath="."/>  
-      <xsd:field xpath="ID"/> 
+      <xsd:field xpath="Id"/> 
     </xsd:unique> 
   </xsd:element>  
   <xsd:complexType name="Lens"> 
     <xsd:all> 
-      <xsd:element maxOccurs="1" minOccurs="1" name="ID" type="AUTO_INCREMENT">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="1" name="LensName" type="xsd:string">
-<xsd:annotation>
-<xsd:appinfo source="X_Label_EN">Lens</xsd:appinfo>
-<xsd:appinfo source="X_Label_DE">Objektivname</xsd:appinfo>
-<xsd:appinfo source="X_Label_FR">Objectif</xsd:appinfo>
-<xsd:appinfo source="X_Description_EN">The full name of the lens as engraved on the lens.</xsd:appinfo>
-<xsd:appinfo source="X_Description_DE">Der vollstaendige Name wie am Objektiv ablesbar.</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="Vendor" type="xsd:string">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="ReleaseYear" type="xsd:integer">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="LensCategory" type="xsd:string">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="MinFocalLength" type="xsd:integer">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="MaxFocalLength" type="xsd:integer">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="MinAperture" type="xsd:double">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="MaxAperture" type="xsd:double">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="MinFocusDistanceMM" type="xsd:integer">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>  
-      <xsd:element maxOccurs="1" minOccurs="0" name="FilterSizeMM" type="xsd:integer">
-<xsd:annotation>
-<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
-<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
-</xsd:annotation>
-</xsd:element> 
+      <xsd:element maxOccurs="1" minOccurs="1" name="Id" type="AUTO_INCREMENT"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="1" name="LensName" type="xsd:string"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Label_EN">Lens</xsd:appinfo>  
+          <xsd:appinfo source="X_Label_DE">Objektivname</xsd:appinfo>  
+          <xsd:appinfo source="X_Label_FR">Objectif</xsd:appinfo>  
+          <xsd:appinfo source="X_Description_EN">The full name of the lens as engraved on the lens.</xsd:appinfo>  
+          <xsd:appinfo source="X_Description_DE">Der vollstaendige Name wie am Objektiv ablesbar.</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="Vendor" type="xsd:string"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="ReleaseYear" type="xsd:integer"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="LensCategory" type="xsd:string"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="MinFocalLength" type="xsd:integer"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="MaxFocalLength" type="xsd:integer"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="MinAperture" type="xsd:double"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="MaxAperture" type="xsd:double"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="MinFocusDistanceMM" type="xsd:integer"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element>  
+      <xsd:element maxOccurs="1" minOccurs="0" name="FilterSizeMM" type="xsd:integer"> 
+        <xsd:annotation> 
+          <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>  
+          <xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo> 
+        </xsd:annotation> 
+      </xsd:element> 
     </xsd:all> 
   </xsd:complexType>  
   <xsd:simpleType name="AUTO_INCREMENT"> 
