@@ -301,57 +301,57 @@
     <elementParameter field="CHECK" name="EXTENDINSERT" value="false"/>
     <elementParameter field="TEXT" name="COMMIT_LEVEL" value="200" show="false"/>
     <elementParameter field="TABLE" name="ROOT" show="false">
-      <elementValue elementRef="PATH" value="/Lens"/>
+      <elementValue elementRef="PATH" value="/Lenses"/>
       <elementValue elementRef="COLUMN" value=""/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
       <elementValue elementRef="ORDER" value="1"/>
-      <elementValue elementRef="PATH" value="/Lens/LensName"/>
+      <elementValue elementRef="PATH" value="/Lenses/LensName"/>
       <elementValue elementRef="COLUMN" value="LensName"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="3"/>
-      <elementValue elementRef="PATH" value="/Lens/Vendor"/>
+      <elementValue elementRef="PATH" value="/Lenses/Vendor"/>
       <elementValue elementRef="COLUMN" value="Vendor"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="4"/>
-      <elementValue elementRef="PATH" value="/Lens/ReleaseYear"/>
+      <elementValue elementRef="PATH" value="/Lenses/ReleaseYear"/>
       <elementValue elementRef="COLUMN" value="ReleaseYear"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="5"/>
-      <elementValue elementRef="PATH" value="/Lens/LensCategory"/>
+      <elementValue elementRef="PATH" value="/Lenses/LensCategory"/>
       <elementValue elementRef="COLUMN" value="LensCategory"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="6"/>
-      <elementValue elementRef="PATH" value="/Lens/MinFocalLength"/>
+      <elementValue elementRef="PATH" value="/Lenses/MinFocalLength"/>
       <elementValue elementRef="COLUMN" value="MinFocalLength"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="7"/>
-      <elementValue elementRef="PATH" value="/Lens/MaxFocalLength"/>
+      <elementValue elementRef="PATH" value="/Lenses/MaxFocalLength"/>
       <elementValue elementRef="COLUMN" value="MaxFocalLength"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="8"/>
-      <elementValue elementRef="PATH" value="/Lens/MinAperture"/>
+      <elementValue elementRef="PATH" value="/Lenses/MinAperture"/>
       <elementValue elementRef="COLUMN" value="MinAperture"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="9"/>
-      <elementValue elementRef="PATH" value="/Lens/MaxAperture"/>
+      <elementValue elementRef="PATH" value="/Lenses/MaxAperture"/>
       <elementValue elementRef="COLUMN" value="MaxAperture"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="10"/>
-      <elementValue elementRef="PATH" value="/Lens/MinFocusDistanceMM"/>
+      <elementValue elementRef="PATH" value="/Lenses/MinFocusDistanceMM"/>
       <elementValue elementRef="COLUMN" value="MinFocusDistanceMM"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="11"/>
-      <elementValue elementRef="PATH" value="/Lens/FilterSizeMM"/>
+      <elementValue elementRef="PATH" value="/Lenses/FilterSizeMM"/>
       <elementValue elementRef="COLUMN" value="FilterSizeMM"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
@@ -359,7 +359,7 @@
     </elementParameter>
     <elementParameter field="TABLE" name="GROUP" show="false"/>
     <elementParameter field="TABLE" name="LOOP" show="false">
-      <elementValue elementRef="PATH" value="/Lens/ID"/>
+      <elementValue elementRef="PATH" value="/Lenses/ID"/>
       <elementValue elementRef="COLUMN" value="ID"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
