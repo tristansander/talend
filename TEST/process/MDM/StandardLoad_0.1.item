@@ -245,7 +245,7 @@
         <mapperTableEntries name="MinAperture" expression="Double.parseDouble(row1.min_aperture.toString()) " type="id_Double" nullable="true"/>
         <mapperTableEntries name="MaxAperture" expression="Double.parseDouble(row1.max_aperture.toString()) " type="id_Double" nullable="true"/>
         <mapperTableEntries name="MinFocusDistanceMM" expression="row1.min_focus_distance_mm " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="FilterSizeMM" expression="row1.filter_size_mm " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="FilterSizeMM" expression="new Integer(row1.filter_size_mm) " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="talend_mdm_key" type="id_Integer" nullable="true"/>
