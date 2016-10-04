@@ -15,19 +15,6 @@
       <root xmi:id="_C_BSqon5EeaHcqqdT0yeSQ" XMLPath="/Lens/FilterSizeMM" RelatedColumn="FilterSizeMM" Attribute="branch" Order="179" Type="id_Integer"/>
       <loop xmi:id="_C_BSq4n5EeaHcqqdT0yeSQ" XMLPath="/Lens/Id" RelatedColumn="Id" Attribute="main" Order="169" Type="id_Integer"/>
     </schemas>
-    <schemas xmi:id="_vpHpUIXkEeab09vDHC1J_A" label="LensIn" LoopExpression="/Lens" LoopLimit="50">
-      <conceptTargets xmi:id="_4gU6kIXkEeab09vDHC1J_A" targetName="Id" RelativeLoopExpression="Id"/>
-      <conceptTargets xmi:id="_4gU6kYXkEeab09vDHC1J_A" targetName="LensName" RelativeLoopExpression="LensName"/>
-      <conceptTargets xmi:id="_4gU6koXkEeab09vDHC1J_A" targetName="Vendor" RelativeLoopExpression="Vendor"/>
-      <conceptTargets xmi:id="_4gU6k4XkEeab09vDHC1J_A" targetName="ReleaseYear" RelativeLoopExpression="ReleaseYear"/>
-      <conceptTargets xmi:id="_4gU6lIXkEeab09vDHC1J_A" targetName="LensCategory" RelativeLoopExpression="LensCategory"/>
-      <conceptTargets xmi:id="_4gU6lYXkEeab09vDHC1J_A" targetName="MinFocalLength" RelativeLoopExpression="MinFocalLength"/>
-      <conceptTargets xmi:id="_4gU6loXkEeab09vDHC1J_A" targetName="MaxFocalLength" RelativeLoopExpression="MaxFocalLength"/>
-      <conceptTargets xmi:id="_4gU6l4XkEeab09vDHC1J_A" targetName="MinAperture" RelativeLoopExpression="MinAperture"/>
-      <conceptTargets xmi:id="_4gU6mIXkEeab09vDHC1J_A" targetName="MaxAperture" RelativeLoopExpression="MaxAperture"/>
-      <conceptTargets xmi:id="_4gU6mYXkEeab09vDHC1J_A" targetName="MinFocusDistanceMM" RelativeLoopExpression="MinFocusDistanceMM"/>
-      <conceptTargets xmi:id="_4gU6moXkEeab09vDHC1J_A" targetName="FilterSizeMM" RelativeLoopExpression="FilterSizeMM"/>
-    </schemas>
     <schemas xmi:id="_OowxUIXlEeab09vDHC1J_A" label="LensReceive" LoopExpression="/Lens" LoopLimit="5000" conceptType="RECEIVE" xPathPrefix="TRIGGER_ITEM">
       <conceptTargets xmi:id="_T7yKIIXlEeab09vDHC1J_A" targetName="Id" RelativeLoopExpression="Id"/>
       <conceptTargets xmi:id="_T7yKIYXlEeab09vDHC1J_A" targetName="LensName" RelativeLoopExpression="LensName"/>
@@ -41,21 +28,33 @@
       <conceptTargets xmi:id="_T7yKKYXlEeab09vDHC1J_A" targetName="MinFocusDistanceMM" RelativeLoopExpression="MinFocusDistanceMM"/>
       <conceptTargets xmi:id="_T7yKKoXlEeab09vDHC1J_A" targetName="FilterSizeMM" RelativeLoopExpression="FilterSizeMM"/>
     </schemas>
+    <schemas xmi:id="_vpHpUIXkEeab09vDHC1J_A" label="LensIn" LoopExpression="/Lens" LoopLimit="50">
+      <conceptTargets xmi:id="_4gU6kIXkEeab09vDHC1J_A" targetName="Id" RelativeLoopExpression="Id"/>
+      <conceptTargets xmi:id="_4gU6kYXkEeab09vDHC1J_A" targetName="LensName" RelativeLoopExpression="LensName"/>
+      <conceptTargets xmi:id="_4gU6koXkEeab09vDHC1J_A" targetName="Vendor" RelativeLoopExpression="Vendor"/>
+      <conceptTargets xmi:id="_4gU6k4XkEeab09vDHC1J_A" targetName="ReleaseYear" RelativeLoopExpression="ReleaseYear"/>
+      <conceptTargets xmi:id="_4gU6lIXkEeab09vDHC1J_A" targetName="LensCategory" RelativeLoopExpression="LensCategory"/>
+      <conceptTargets xmi:id="_4gU6lYXkEeab09vDHC1J_A" targetName="MinFocalLength" RelativeLoopExpression="MinFocalLength"/>
+      <conceptTargets xmi:id="_4gU6loXkEeab09vDHC1J_A" targetName="MaxFocalLength" RelativeLoopExpression="MaxFocalLength"/>
+      <conceptTargets xmi:id="_4gU6l4XkEeab09vDHC1J_A" targetName="MinAperture" RelativeLoopExpression="MinAperture"/>
+      <conceptTargets xmi:id="_4gU6mIXkEeab09vDHC1J_A" targetName="MaxAperture" RelativeLoopExpression="MaxAperture"/>
+      <conceptTargets xmi:id="_4gU6mYXkEeab09vDHC1J_A" targetName="MinFocusDistanceMM" RelativeLoopExpression="MinFocusDistanceMM"/>
+      <conceptTargets xmi:id="_4gU6moXkEeab09vDHC1J_A" targetName="FilterSizeMM" RelativeLoopExpression="FilterSizeMM"/>
+    </schemas>
   </TalendMetadata:MDMConnection>
   <org.talend.cwm.xml:TdXmlSchema xmi:id="_7r10UIXkEeab09vDHC1J_A" name="Lenses" dataManager="_uzIcgIXkEeab09vDHC1J_A">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7r10UYXkEeab09vDHC1J_A" id="_7ryxAIXkEeab09vDHC1J_A" label="LensIn">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y7F8AIn4EeaHcqqdT0yeSQ" label="Id" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZYIn4EeaHcqqdT0yeSQ" label="LensName" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZYYn4EeaHcqqdT0yeSQ" label="Vendor" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZYon4EeaHcqqdT0yeSQ" label="ReleaseYear" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZY4n4EeaHcqqdT0yeSQ" label="LensCategory" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAcIn4EeaHcqqdT0yeSQ" label="MinFocalLength" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAcYn4EeaHcqqdT0yeSQ" label="MaxFocalLength" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAcon4EeaHcqqdT0yeSQ" label="MinAperture" talendType="id_Double"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAc4n4EeaHcqqdT0yeSQ" label="MaxAperture" talendType="id_Double"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILngIn4EeaHcqqdT0yeSQ" label="MinFocusDistanceMM" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILngYn4EeaHcqqdT0yeSQ" label="FilterSizeMM" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IJyUIn4EeaHcqqdT0yeSQ" label="Id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlVbwIn5EeaHcqqdT0yeSQ" label="Id" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlVbwYn5EeaHcqqdT0yeSQ" label="LensName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWC0In5EeaHcqqdT0yeSQ" label="Vendor" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWC0Yn5EeaHcqqdT0yeSQ" label="ReleaseYear" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWC0on5EeaHcqqdT0yeSQ" label="LensCategory" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWC04n5EeaHcqqdT0yeSQ" label="MinFocalLength" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWC1In5EeaHcqqdT0yeSQ" label="MaxFocalLength" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWp4In5EeaHcqqdT0yeSQ" label="MinAperture" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWp4Yn5EeaHcqqdT0yeSQ" label="MaxAperture" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWp4on5EeaHcqqdT0yeSQ" label="MinFocusDistanceMM" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RlWp44n5EeaHcqqdT0yeSQ" label="FilterSizeMM" talendType="id_Integer"/>
     </ownedElement>
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_L6cJ4IXlEeab09vDHC1J_A" id="_IHjHEIXlEeab09vDHC1J_A" label="LensOut">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4YXlEeab09vDHC1J_A" label="Id" talendType="id_Integer" key="true"/>
