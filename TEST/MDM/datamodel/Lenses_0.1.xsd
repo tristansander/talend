@@ -1,5 +1,4 @@
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
-  <xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>  
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">    
   <xsd:element name="Lens" type="Lens"> 
         <xsd:annotation>
 <xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
