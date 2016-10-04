@@ -145,63 +145,63 @@
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="talend_mdm_key"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="lensName"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lens_name"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="vendor"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="releaseyear"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="release_year"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="lenscategory"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lens_category"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="minfocallength"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="min_focal_length"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="maxfocallength"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="max_focal_length"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="minaperture"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="min_aperture"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="maxaperture"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="max_aperture"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="minfocusdistancemm"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="min_focus_distance_mm"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="filtersizemm"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="filter_size_mm"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="lens_metadata" name="tMysqlInput_1">
-      <column comment="" key="true" length="10" name="ID" nullable="true" originalDbColumnName="talend_mdm_key" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="10" name="talend_mdm_key" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="100" name="lensName" nullable="true" originalDbColumnName="lens_name" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="100" name="lens_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="30" name="vendor" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="releaseyear" nullable="true" originalDbColumnName="release_year" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="10" name="release_year" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="lenscategory" nullable="true" originalDbColumnName="lens_category" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="lens_category" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="minfocallength" nullable="true" originalDbColumnName="min_focal_length" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="10" name="min_focal_length" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="maxfocallength" nullable="true" originalDbColumnName="max_focal_length" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="10" name="max_focal_length" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="minaperture" nullable="true" originalDbColumnName="min_aperture" pattern="" precision="0" sourceType="FLOAT" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="10" name="min_aperture" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="maxaperture" nullable="true" originalDbColumnName="max_aperture" pattern="" precision="0" sourceType="FLOAT" type="id_Float" usefulColumn="true">
+      <column comment="" key="false" length="10" name="max_aperture" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_Float" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="10" name="minfocusdistancemm" nullable="true" originalDbColumnName="min_focus_distance_mm" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="10" name="min_focus_distance_mm" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="-1" name="filtersizemm" nullable="true" originalDbColumnName="filter_size_mm" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="5" name="filter_size_mm" nullable="true" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value=""/>
@@ -236,29 +236,29 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="tOut">
         <mapperTableEntries name="ID" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="LensName" expression="row1.lensName" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Vendor" expression="row1.vendor" type="id_String" nullable="true"/>
-        <mapperTableEntries name="ReleaseYear" expression="row1.releaseyear" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="LensCategory" expression="row1.lenscategory" type="id_String" nullable="true"/>
-        <mapperTableEntries name="MinFocalLength" expression="row1.minfocallength" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="MaxFocalLength" expression="row1.maxfocallength" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="MinAperture" expression="Double.parseDouble(row1.minaperture.toString()) " type="id_Double" nullable="true"/>
-        <mapperTableEntries name="MaxAperture" expression="Double.parseDouble(row1.maxaperture.toString()) " type="id_Double" nullable="true"/>
-        <mapperTableEntries name="MinFocusDistanceMM" expression="row1.minfocusdistancemm" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="FilterSizeMM" expression="row1.filtersizemm" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="LensName" expression="row1.lens_name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Vendor" expression="row1.vendor " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ReleaseYear" expression="row1.release_year " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="LensCategory" expression="row1.lens_category " type="id_String" nullable="true"/>
+        <mapperTableEntries name="MinFocalLength" expression="row1.min_focal_length " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="MaxFocalLength" expression="row1.max_focal_length " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="MinAperture" expression="Double.parseDouble(row1.min_aperture.toString()) " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MaxAperture" expression="Double.parseDouble(row1.max_aperture.toString()) " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MinFocusDistanceMM" expression="row1.min_focus_distance_mm " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="FilterSizeMM" expression="row1.filter_size_mm " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="ID" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="lensName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="talend_mdm_key" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="lens_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="vendor" type="id_String" nullable="true"/>
-        <mapperTableEntries name="releaseyear" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="lenscategory" type="id_String" nullable="true"/>
-        <mapperTableEntries name="minfocallength" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="maxfocallength" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="minaperture" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="maxaperture" type="id_Float" nullable="true"/>
-        <mapperTableEntries name="minfocusdistancemm" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="filtersizemm" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="release_year" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="lens_category" type="id_String" nullable="true"/>
+        <mapperTableEntries name="min_focal_length" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="max_focal_length" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="min_aperture" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="max_aperture" type="id_Float" nullable="true"/>
+        <mapperTableEntries name="min_focus_distance_mm" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="filter_size_mm" type="id_Short" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -266,12 +266,14 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMDMOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_uzH1cIXkEeab09vDHC1J_A" show="false"/>
+    <elementParameter field="TECHNICAL" name="INPUT_SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="INPUT_SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_uzH1cIXkEeab09vDHC1J_A - LensOut" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_uzH1cIXkEeab09vDHC1J_A - LensOut" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_uzH1cIXkEeab09vDHC1J_A - LensOut" show="false"/>
     <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="true"/>
-    <elementParameter field="COLUMN_LIST" name="XMLFIELD" value="LensName"/>
+    <elementParameter field="COLUMN_LIST" name="XMLFIELD" value="xml"/>
     <elementParameter field="PREV_COLUMN_LIST" name="DOCUMENT" value="ID" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -283,9 +285,7 @@
     <elementParameter field="TEXT" name="DATAMODEL" value="&quot;Lenses&quot;"/>
     <elementParameter field="TEXT" name="DATACLUSTER" value="&quot;Lenses&quot;"/>
     <elementParameter field="CLOSED_LIST" name="CONTAINER_TYPE" value="MASTER"/>
-    <elementParameter field="TABLE" name="RETURN_IDS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="ID"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="RETURN_IDS"/>
     <elementParameter field="CHECK" name="ISUPDATE" value="false"/>
     <elementParameter field="CHECK" name="WITHREPORT" value="false"/>
     <elementParameter field="TEXT" name="SOURCE" value="&quot;TOS&quot;" show="false"/>
@@ -376,7 +376,7 @@
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Null"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="STORE_FLOW" value="true" show="false"/>
