@@ -29,7 +29,7 @@
       <conceptTargets xmi:id="_T7yKKoXlEeab09vDHC1J_A" targetName="FilterSizeMM" RelativeLoopExpression="FilterSizeMM"/>
     </schemas>
     <schemas xmi:id="_vpHpUIXkEeab09vDHC1J_A" label="LensIn" LoopExpression="/Lens" LoopLimit="50">
-      <conceptTargets xmi:id="_4gU6kIXkEeab09vDHC1J_A" targetName="ID" RelativeLoopExpression="ID"/>
+      <conceptTargets xmi:id="_4gU6kIXkEeab09vDHC1J_A" targetName="Id" RelativeLoopExpression="Id"/>
       <conceptTargets xmi:id="_4gU6kYXkEeab09vDHC1J_A" targetName="LensName" RelativeLoopExpression="LensName"/>
       <conceptTargets xmi:id="_4gU6koXkEeab09vDHC1J_A" targetName="Vendor" RelativeLoopExpression="Vendor"/>
       <conceptTargets xmi:id="_4gU6k4XkEeab09vDHC1J_A" targetName="ReleaseYear" RelativeLoopExpression="ReleaseYear"/>
@@ -44,17 +44,18 @@
   </TalendMetadata:MDMConnection>
   <org.talend.cwm.xml:TdXmlSchema xmi:id="_7r10UIXkEeab09vDHC1J_A" name="Lenses" dataManager="_uzIcgIXkEeab09vDHC1J_A">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_7r10UYXkEeab09vDHC1J_A" id="_7ryxAIXkEeab09vDHC1J_A" label="LensIn">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl7WcIbUEeaUBKtTOLEnLw" label="ID" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl79gIbUEeaUBKtTOLEnLw" label="LensName" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl79gYbUEeaUBKtTOLEnLw" label="Vendor" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl79gobUEeaUBKtTOLEnLw" label="ReleaseYear" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl8kkIbUEeaUBKtTOLEnLw" label="LensCategory" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl8kkYbUEeaUBKtTOLEnLw" label="MinFocalLength" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl8kkobUEeaUBKtTOLEnLw" label="MaxFocalLength" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl8kk4bUEeaUBKtTOLEnLw" label="MinAperture" talendType="id_Double"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl9LoIbUEeaUBKtTOLEnLw" label="MaxAperture" talendType="id_Double"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl9LoYbUEeaUBKtTOLEnLw" label="MinFocusDistanceMM" talendType="id_Integer"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yl9LoobUEeaUBKtTOLEnLw" label="FilterSizeMM" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y7F8AIn4EeaHcqqdT0yeSQ" label="Id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZYIn4EeaHcqqdT0yeSQ" label="LensName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZYYn4EeaHcqqdT0yeSQ" label="Vendor" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZYon4EeaHcqqdT0yeSQ" label="ReleaseYear" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IKZY4n4EeaHcqqdT0yeSQ" label="LensCategory" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAcIn4EeaHcqqdT0yeSQ" label="MinFocalLength" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAcYn4EeaHcqqdT0yeSQ" label="MaxFocalLength" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAcon4EeaHcqqdT0yeSQ" label="MinAperture" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILAc4n4EeaHcqqdT0yeSQ" label="MaxAperture" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILngIn4EeaHcqqdT0yeSQ" label="MinFocusDistanceMM" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ILngYn4EeaHcqqdT0yeSQ" label="FilterSizeMM" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IJyUIn4EeaHcqqdT0yeSQ" label="Id" talendType="id_Integer"/>
     </ownedElement>
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_L6cJ4IXlEeab09vDHC1J_A" id="_IHjHEIXlEeab09vDHC1J_A" label="LensOut">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4YXlEeab09vDHC1J_A" label="ID" talendType="id_Integer"/>
