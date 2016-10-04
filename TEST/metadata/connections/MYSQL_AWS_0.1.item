@@ -17,7 +17,7 @@
   <orgomg.cwm.resource.relational:Catalog xmi:id="_oFfHgIXeEeab09vDHC1J_A" name="storelondon" dataManager="_n-UvkIXeEeab09vDHC1J_A">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_9cVwUIXeEeab09vDHC1J_A" name="lens_metadata" id="_9cQQwIXeEeab09vDHC1J_A" label="lens_metadata" tableType="TABLE">
       <taggedValue xmi:id="_9cVwUYXeEeab09vDHC1J_A" tag="Comment" value=""/>
-      <feature xsi:type="relational:TdColumn" xmi:id="_TNuNeIniEeaHcqqdT0yeSQ" name="talend_mdm_key" label="talend_mdm_key" length="10" sourceType="INT" talendType="id_Integer">
+      <feature xsi:type="relational:TdColumn" xmi:id="_TNuNeIniEeaHcqqdT0yeSQ" name="talend_mdm_key" label="talend_mdm_key" length="10" sourceType="INT" talendType="id_Integer" key="true">
         <taggedValue xmi:id="_TNuNeYniEeaHcqqdT0yeSQ" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_TNuNeoniEeaHcqqdT0yeSQ" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_TNuNe4niEeaHcqqdT0yeSQ" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
