@@ -333,7 +333,7 @@
     <elementParameter field="CHECK" name="STORE_FLOW" value="true" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="LensOut"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="LensIn" name="tMDMOutput_1">
+    <metadata connector="FLOW" label="LensOut" name="tMDMOutput_1">
       <column comment="" key="false" length="0" name="Id" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="LensName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="Vendor" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
@@ -345,9 +345,8 @@
       <column comment="" key="false" length="0" name="MaxAperture" nullable="true" pattern="" precision="0" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="MinFocusDistanceMM" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="FilterSizeMM" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Id" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
-    <metadata connector="OUTPUT" label="LensIn" name="OUTPUT">
+    <metadata connector="OUTPUT" label="LensOut" name="OUTPUT">
       <column comment="" key="false" length="0" name="Id" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="LensName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="Vendor" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
@@ -359,10 +358,9 @@
       <column comment="" key="false" length="0" name="MaxAperture" nullable="true" pattern="" precision="0" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="MinFocusDistanceMM" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="FilterSizeMM" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Id" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="xml" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="LensIn" name="REJECT">
+    <metadata connector="REJECT" label="LensOut" name="REJECT">
       <column comment="" key="false" length="0" name="Id" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="LensName" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="Vendor" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
@@ -374,7 +372,6 @@
       <column comment="" key="false" length="0" name="MaxAperture" nullable="true" pattern="" precision="0" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="MinFocusDistanceMM" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="0" name="FilterSizeMM" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="Id" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="xml" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>

@@ -2,18 +2,18 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:org.talend.cwm.xml="http://www.talend.org/cwm/resource/xml/2010">
   <TalendMetadata:MDMConnection xmi:id="_uzIcgIXkEeab09vDHC1J_A" name="MDMConnectionLenses" label="MDMConnectionLenses" dataPackage="_7r10UIXkEeab09vDHC1J_A" version="s60" Username="administrator" Password="gYS5jltDdzLSfHIqaDxbXg==" Datamodel="Lenses" Datacluster="Lenses" serverUrl="http://ec2-54-206-17-240.ap-southeast-2.compute.amazonaws.com:8180/talendmdm/services/soap">
     <schemas xmi:id="_HR3cQIXlEeab09vDHC1J_A" label="LensOut" LoopLimit="50" conceptType="OUTPUT">
-      <root xmi:id="_IHljUIXlEeab09vDHC1J_A" XMLPath="/Lens" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
-      <root xmi:id="_IHljUYXlEeab09vDHC1J_A" XMLPath="/Lens/LensName" RelatedColumn="LensName" Attribute="main" Order="3" Type="id_String"/>
-      <root xmi:id="_IHljUoXlEeab09vDHC1J_A" XMLPath="/Lens/Vendor" RelatedColumn="Vendor" Attribute="main" Order="4" Type="id_String"/>
-      <root xmi:id="_IHljU4XlEeab09vDHC1J_A" XMLPath="/Lens/ReleaseYear" RelatedColumn="ReleaseYear" Attribute="main" Order="5" Type="id_Integer"/>
-      <root xmi:id="_IHljVIXlEeab09vDHC1J_A" XMLPath="/Lens/LensCategory" RelatedColumn="LensCategory" Attribute="main" Order="6" Type="id_String"/>
-      <root xmi:id="_IHljVYXlEeab09vDHC1J_A" XMLPath="/Lens/MinFocalLength" RelatedColumn="MinFocalLength" Attribute="main" Order="7" Type="id_Integer"/>
-      <root xmi:id="_IHljVoXlEeab09vDHC1J_A" XMLPath="/Lens/MaxFocalLength" RelatedColumn="MaxFocalLength" Attribute="main" Order="8" Type="id_Integer"/>
-      <root xmi:id="_IHljV4XlEeab09vDHC1J_A" XMLPath="/Lens/MinAperture" RelatedColumn="MinAperture" Attribute="main" Order="9" Type="id_Double"/>
-      <root xmi:id="_IHljWIXlEeab09vDHC1J_A" XMLPath="/Lens/MaxAperture" RelatedColumn="MaxAperture" Attribute="main" Order="10" Type="id_Double"/>
-      <root xmi:id="_IHljWYXlEeab09vDHC1J_A" XMLPath="/Lens/MinFocusDistanceMM" RelatedColumn="MinFocusDistanceMM" Attribute="main" Order="11" Type="id_Integer"/>
-      <root xmi:id="_IHljWoXlEeab09vDHC1J_A" XMLPath="/Lens/FilterSizeMM" RelatedColumn="FilterSizeMM" Attribute="main" Order="12" Type="id_Integer"/>
-      <loop xmi:id="_IHljW4XlEeab09vDHC1J_A" XMLPath="/Lens/ID" RelatedColumn="ID" Attribute="main" Order="2" Type="id_Integer"/>
+      <root xmi:id="_C_BSoIn5EeaHcqqdT0yeSQ" XMLPath="/Lens" RelatedColumn="" Attribute="main" Order="168" Type="id_String"/>
+      <root xmi:id="_C_BSoYn5EeaHcqqdT0yeSQ" XMLPath="/Lens/LensName" RelatedColumn="LensName" Attribute="branch" Order="170" Type="id_String"/>
+      <root xmi:id="_C_BSoon5EeaHcqqdT0yeSQ" XMLPath="/Lens/Vendor" RelatedColumn="Vendor" Attribute="branch" Order="171" Type="id_String"/>
+      <root xmi:id="_C_BSo4n5EeaHcqqdT0yeSQ" XMLPath="/Lens/ReleaseYear" RelatedColumn="ReleaseYear" Attribute="branch" Order="172" Type="id_Integer"/>
+      <root xmi:id="_C_BSpIn5EeaHcqqdT0yeSQ" XMLPath="/Lens/LensCategory" RelatedColumn="LensCategory" Attribute="branch" Order="173" Type="id_String"/>
+      <root xmi:id="_C_BSpYn5EeaHcqqdT0yeSQ" XMLPath="/Lens/MinFocalLength" RelatedColumn="MinFocalLength" Attribute="branch" Order="174" Type="id_Integer"/>
+      <root xmi:id="_C_BSpon5EeaHcqqdT0yeSQ" XMLPath="/Lens/MaxFocalLength" RelatedColumn="MaxFocalLength" Attribute="branch" Order="175" Type="id_Integer"/>
+      <root xmi:id="_C_BSp4n5EeaHcqqdT0yeSQ" XMLPath="/Lens/MinAperture" RelatedColumn="MinAperture" Attribute="branch" Order="176" Type="id_Double"/>
+      <root xmi:id="_C_BSqIn5EeaHcqqdT0yeSQ" XMLPath="/Lens/MaxAperture" RelatedColumn="MaxAperture" Attribute="branch" Order="177" Type="id_Double"/>
+      <root xmi:id="_C_BSqYn5EeaHcqqdT0yeSQ" XMLPath="/Lens/MinFocusDistanceMM" RelatedColumn="MinFocusDistanceMM" Attribute="branch" Order="178" Type="id_Integer"/>
+      <root xmi:id="_C_BSqon5EeaHcqqdT0yeSQ" XMLPath="/Lens/FilterSizeMM" RelatedColumn="FilterSizeMM" Attribute="branch" Order="179" Type="id_Integer"/>
+      <loop xmi:id="_C_BSq4n5EeaHcqqdT0yeSQ" XMLPath="/Lens/Id" RelatedColumn="Id" Attribute="main" Order="169" Type="id_Integer"/>
     </schemas>
     <schemas xmi:id="_OowxUIXlEeab09vDHC1J_A" label="LensReceive" LoopExpression="/Lens" LoopLimit="50" conceptType="RECEIVE" xPathPrefix="TRIGGER_ITEM">
       <conceptTargets xmi:id="_T7yKIIXlEeab09vDHC1J_A" targetName="ID" RelativeLoopExpression="ID"/>
@@ -58,7 +58,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3IJyUIn4EeaHcqqdT0yeSQ" label="Id" talendType="id_Integer"/>
     </ownedElement>
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_L6cJ4IXlEeab09vDHC1J_A" id="_IHjHEIXlEeab09vDHC1J_A" label="LensOut">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4YXlEeab09vDHC1J_A" label="ID" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4YXlEeab09vDHC1J_A" label="Id" talendType="id_Integer"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ4oXlEeab09vDHC1J_A" label="LensName" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ44XlEeab09vDHC1J_A" label="Vendor" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L6cJ5IXlEeab09vDHC1J_A" label="ReleaseYear" talendType="id_Integer"/>
