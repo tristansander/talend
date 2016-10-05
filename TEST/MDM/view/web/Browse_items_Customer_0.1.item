@@ -3,5 +3,5 @@
   <searchableBusinessElements>Customer/CustomerName</searchableBusinessElements>
   <viewableBusinessElements>Customer/Id</viewableBusinessElements>
   <viewableBusinessElements>Customer/CustomerName</viewableBusinessElements>
-  <isTransformerActive xmi:id="_JuLZYIqVEeaDJLoC9GVknQ"/>
+  <isTransformerActive xmi:id="_kNizIIqgEeaDJLoC9GVknQ"/>
 </mdmserverobject:WSViewE>
