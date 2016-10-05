@@ -145,16 +145,11 @@
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
       <elementValue elementRef="ORDER" value="1"/>
-      <elementValue elementRef="PATH" value="/Customer/CustomerName"/>
-      <elementValue elementRef="COLUMN" value="CustomerName"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="3"/>
     </elementParameter>
     <elementParameter field="TABLE" name="GROUP" show="false"/>
     <elementParameter field="TABLE" name="LOOP" show="false">
-      <elementValue elementRef="PATH" value="/Customer/Id"/>
-      <elementValue elementRef="COLUMN" value="Id"/>
+      <elementValue elementRef="PATH" value="/Customer/CustomerName"/>
+      <elementValue elementRef="COLUMN" value="CustomerName"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
       <elementValue elementRef="ORDER" value="2"/>
