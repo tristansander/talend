@@ -266,10 +266,10 @@
         <mapperTableEntries name="lens_category" expression="row1.LensCategory " type="id_String" nullable="true"/>
         <mapperTableEntries name="min_focal_length" expression="row1.MinFocalLength " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="max_focal_length" expression="row1.MaxFocalLength " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="min_aperture" expression="row1.MinAperture " type="id_Float" nullable="true"/>
-        <mapperTableEntries name="max_aperture" expression="row1.MaxAperture " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="min_aperture" expression="new Float(row1.MinAperture) " type="id_Float" nullable="true"/>
+        <mapperTableEntries name="max_aperture" expression="new Float(row1.MaxAperture ) " type="id_Float" nullable="true"/>
         <mapperTableEntries name="min_focus_distance_mm" expression="row1.MinFocusDistanceMM " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="filter_size_mm" expression="row1.FilterSizeMM " type="id_Short" nullable="true"/>
+        <mapperTableEntries name="filter_size_mm" expression="new Short(row1.FilterSizeMM.toString()) " type="id_Short" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Id" type="id_Integer" nullable="true"/>
