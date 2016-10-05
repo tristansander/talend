@@ -165,7 +165,7 @@
     <elementParameter field="CHECK" name="REMOVE_HEADER" value="true"/>
     <elementParameter field="CHECK" name="CREATE" value="true" show="false"/>
     <elementParameter field="CHECK" name="CREATE_EMPTY_ELEMENT" value="true"/>
-    <elementParameter field="CHECK" name="EXPAND_EMPTY_ELM" value="false"/>
+    <elementParameter field="CHECK" name="EXPAND_EMPTY_ELM" value="true"/>
     <elementParameter field="CHECK" name="OUTPUT_AS_XSD" value="false"/>
     <elementParameter field="FILE" name="XSD_FILE" value="&quot;/Users/adrienfollin/Desktop/Talend/Talend-Studio-20160704_1411-V6.2.1/workspace/file.xsd&quot;" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
