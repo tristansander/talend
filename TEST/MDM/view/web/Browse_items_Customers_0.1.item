@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_5jroEIqREeaDJLoC9GVknQ" name="Browse_items_Customers" description="[EN:Customers]" lastServerName="AWS" transformerPK="">
+  <searchableBusinessElements>Customers/CustomersName</searchableBusinessElements>
+  <viewableBusinessElements>Customers/Id</viewableBusinessElements>
+  <viewableBusinessElements>Customers/CustomersName</viewableBusinessElements>
+  <isTransformerActive xmi:id="_5jroEYqREeaDJLoC9GVknQ"/>
+</mdmserverobject:WSViewE>
