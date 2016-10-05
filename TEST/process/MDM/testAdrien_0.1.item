@@ -122,7 +122,7 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="Id"/>
-      <elementValue elementRef="VALUE" value="2"/>
+      <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
       <elementValue elementRef="VALUE" value="&quot;Tristan Sander&quot;"/>
     </elementParameter>
