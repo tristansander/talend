@@ -124,6 +124,7 @@
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
+      <elementValue elementRef="CustomerName" value="&quot;Follin Adrien&quot;"/>
       <elementValue elementRef="CustomerName" value="&quot;Steven Gallacher&quot;"/>
       <elementValue elementRef="CustomerName" value="&quot;Tony Nicol&quot;"/>
     </elementParameter>
