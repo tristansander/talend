@@ -13,7 +13,9 @@
   <specification xmi:id="_NMsgZoU_Eeab09vDHC1J_A" admin="true" objectType="Stored Procedure"/>
   <specification xmi:id="_NMsgZ4U_Eeab09vDHC1J_A" admin="true" objectType="Service"/>
   <specification xmi:id="_NMsgaIU_Eeab09vDHC1J_A" admin="true" objectType="Custom Layout"/>
-  <specification xmi:id="_NMsgaYU_Eeab09vDHC1J_A" admin="true" objectType="View"/>
+  <specification xmi:id="_NMsgaYU_Eeab09vDHC1J_A" admin="true" objectType="View">
+    <instance xmi:id="_-acbUIqUEeaDJLoC9GVknQ" instanceName="Browse_items_Customer" writable="true"/>
+  </specification>
   <specification xmi:id="_NMsgaoU_Eeab09vDHC1J_A" admin="true" objectType="Routing Rule">
     <instance xmi:id="_NMsga4U_Eeab09vDHC1J_A" instanceName=".*">
       <parameter></parameter>
