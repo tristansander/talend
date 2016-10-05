@@ -1,0 +1,12 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="Customers" type="Customers"/>
+<xsd:complexType name="Customers">
+<xsd:all>
+<xsd:element maxOccurs="1" minOccurs="1" name="Id" type="AUTO_INCREMENT"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="CustomersName" type="xsd:string"/>
+</xsd:all>
+</xsd:complexType>
+<xsd:simpleType name="AUTO_INCREMENT">
+<xsd:restriction base="xsd:string"/>
+</xsd:simpleType>
+</xsd:schema>
