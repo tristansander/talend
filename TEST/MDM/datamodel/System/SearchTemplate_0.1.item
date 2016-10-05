@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSDataModelE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_FwvPsIVAEeab09vDHC1J_A" name="SearchTemplate" description="SearchTemplate" lastServerName="AWS"/>
+<mdmserverobject:WSDataModelE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_FwvPsIVAEeab09vDHC1J_A" name="SearchTemplate" description="SearchTemplate" timestamp="1475626604827" digestValue="d4291c4f1082b55c1a94151a7ac983c2" lastServerName="AWS"/>
