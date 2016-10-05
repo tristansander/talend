@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_5jroEIqREeaDJLoC9GVknQ" name="Browse_items_Customers" description="[EN:Customers]" lastServerName="AWS" transformerPK="">
+<mdmserverobject:WSViewE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_5jroEIqREeaDJLoC9GVknQ" name="Browse_items_Customers" description="[EN:Customers]" digestValue="599b779054de6752c3115c0d2023f32d" lastServerName="AWS" transformerPK="">
   <searchableBusinessElements>Customers/CustomersName</searchableBusinessElements>
   <viewableBusinessElements>Customers/Id</viewableBusinessElements>
   <viewableBusinessElements>Customers/CustomersName</viewableBusinessElements>
