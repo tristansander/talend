@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdmserverobject:WSDataClusterE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_CVoawIVAEeab09vDHC1J_A" name="CONF" description="Data cluster to hold general information" lastServerName="AWS" vocabulary=""/>
+<mdmserverobject:WSDataClusterE xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmi:id="_CVoawIVAEeab09vDHC1J_A" name="CONF" description="Data cluster to hold general information" timestamp="1475626626267" digestValue="bcb03c85981d7642c8a7abbaf238df53" lastServerName="AWS" vocabulary=""/>
