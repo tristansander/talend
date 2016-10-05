@@ -1,7 +1,11 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<xsd:import namespace="http://www.w3.org/2001/XMLSchema"/>
 <xsd:element name="Customer" type="Customer">
-<xsd:unique name="Customer">
+        <xsd:annotation>
+<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
+<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
+<xsd:appinfo source="X_Write">System_Web</xsd:appinfo>
+</xsd:annotation>
+        <xsd:unique name="Customer">
 <xsd:selector xpath="."/>
 <xsd:field xpath="Id"/>
 </xsd:unique>
@@ -13,8 +17,20 @@
 </xsd:simpleType>
 <xsd:complexType name="Customer">
 <xsd:all>
-<xsd:element maxOccurs="1" minOccurs="1" name="Id" type="AUTO_INCREMENT"/>
-<xsd:element maxOccurs="1" minOccurs="0" name="CustomerName" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="Id" type="AUTO_INCREMENT">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
+<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
+<xsd:appinfo source="X_Write">System_Web</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element maxOccurs="1" minOccurs="0" name="CustomerName" type="xsd:string">
+<xsd:annotation>
+<xsd:appinfo source="X_Write">System_Admin</xsd:appinfo>
+<xsd:appinfo source="X_Write">System_Interactive</xsd:appinfo>
+<xsd:appinfo source="X_Write">System_Web</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
 </xsd:all>
 </xsd:complexType>
 </xsd:schema>
