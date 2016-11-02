@@ -764,4 +764,5 @@
   <TalendProperties:User xmi:id="_IWyCwWmSEeaA1tlSy0tf6g" login="adrien.follin@servian.com" firstName="Adrien" lastName="Follin" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_LsM0cWpYEeakFNt3q34LRQ" login="tre@test.com"/>
   <TalendProperties:User xmi:id="_A_SwQIRLEea9lcytX5FXEA" login="atanas.chakalov@servian.com" firstName="Atanas" lastName="Chakalov" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_WC0JEKC1EeakHN1fw4DdIA" login="joshua.turci@servian.com" firstName="Josh" lastName="Turci" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
