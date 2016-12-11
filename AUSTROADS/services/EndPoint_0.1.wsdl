@@ -9,14 +9,19 @@
 	<wsdl:types>
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 			targetNamespace="http://www.talend.org/service/">
-			<xsd:element name="EndPointOperationRequest">
+			<xsd:element name="GetLicenseRequest">
 				<xsd:complexType>
 					<xsd:sequence>
-						<xsd:element name="in" type="xsd:string"></xsd:element>
+						<xsd:element name="LicenseNumber"
+							type="xsd:string">
+						</xsd:element>
+						<xsd:element name="JurisdictionCode"
+							type="xsd:string">
+						</xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="EndPointOperationResponse">
+			<xsd:element name="GetLicenseResponse">
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="out" type="xsd:string"></xsd:element>
@@ -26,24 +31,24 @@
 		</xsd:schema>
 	</wsdl:types>
 
-	<wsdl:message name="EndPointOperationRequest">
-		<wsdl:part name="parameters" element="tns:EndPointOperationRequest"></wsdl:part>
+	<wsdl:message name="GetLicenseRequest">
+		<wsdl:part name="parameters" element="tns:GetLicenseRequest"></wsdl:part>
 	</wsdl:message>
-	<wsdl:message name="EndPointOperationResponse">
-		<wsdl:part name="parameters" element="tns:EndPointOperationResponse"></wsdl:part>
+	<wsdl:message name="GetLicenseResponse">
+		<wsdl:part name="parameters" element="tns:GetLicenseResponse"></wsdl:part>
 	</wsdl:message>
 
 	<wsdl:portType name="EndPointPortType">
-		<wsdl:operation name="EndPointOperation">
-			<wsdl:input message="tns:EndPointOperationRequest"></wsdl:input>
-			<wsdl:output message="tns:EndPointOperationResponse"></wsdl:output>
+		<wsdl:operation name="GetLicense">
+			<wsdl:input message="tns:GetLicenseRequest"></wsdl:input>
+			<wsdl:output message="tns:GetLicenseResponse"></wsdl:output>
 		</wsdl:operation>
 	</wsdl:portType>
 
 	<wsdl:binding name="EndPointBinding" type="tns:EndPointPortType">
 		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
-		<wsdl:operation name="EndPointOperation">
-			<soap:operation soapAction="http://www.talend.org/service/EndPointOperation" />
+		<wsdl:operation name="GetLicense">
+			<soap:operation soapAction="http://www.talend.org/service/GetLicense" />
 			<wsdl:input>
 				<soap:body use="literal" />
 			</wsdl:input>

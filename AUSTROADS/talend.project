@@ -92,6 +92,13 @@
       <relatedItems xmi:id="_7kLIh7_sEeaSLqT-rKktnQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_7kLIiL_sEeaSLqT-rKktnQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_7kLIib_sEeaSLqT-rKktnQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QFLxoL_xEeaSLqT-rKktnQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QFLxob_xEeaSLqT-rKktnQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QFLxor_xEeaSLqT-rKktnQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QFLxo7_xEeaSLqT-rKktnQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QFLxpL_xEeaSLqT-rKktnQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QFLxpb_xEeaSLqT-rKktnQ" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QFLxpr_xEeaSLqT-rKktnQ" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_7kLIir_sEeaSLqT-rKktnQ">
       <baseItem xmi:id="_7kLIi7_sEeaSLqT-rKktnQ" id="_xlsxILbAEeaEu6dIRD8SCQ" version="0.1" type="job"/>
