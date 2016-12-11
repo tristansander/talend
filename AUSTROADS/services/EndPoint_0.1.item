@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
   <Services:ServiceConnection xmi:id="_5ksnQb_wEeaSLqT-rKktnQ" servicePort="_AXKusL_zEeaSLqT-rKktnQ"/>
   <Services:ServicePort xmi:id="_AXKusL_zEeaSLqT-rKktnQ" name="EndPointPortType" id="_5nRaIL_wEeaSLqT-rKktnQ" serviceOperation="_AXLVwL_zEeaSLqT-rKktnQ _AXLVwb_zEeaSLqT-rKktnQ _AXLVwr_zEeaSLqT-rKktnQ"/>
-  <Services:ServiceOperation xmi:id="_AXLVwL_zEeaSLqT-rKktnQ" label="GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ"/>
+  <Services:ServiceOperation xmi:id="_AXLVwL_zEeaSLqT-rKktnQ" label="GetLicense-EndPointPortType_GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ" referenceJobId="_4Sqa0L_0EeaSLqT-rKktnQ"/>
   <Services:ServiceOperation xmi:id="_AXLVwb_zEeaSLqT-rKktnQ" label="GetPerson" name="GetPerson" id="__5y2Mb_yEeaSLqT-rKktnQ" inBinding="false"/>
   <Services:ServiceOperation xmi:id="_AXLVwr_zEeaSLqT-rKktnQ" label="GetAddress" name="GetAddress" id="__5y2Mr_yEeaSLqT-rKktnQ" inBinding="false"/>
 </xmi:XMI>
