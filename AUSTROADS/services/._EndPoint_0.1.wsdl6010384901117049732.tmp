@@ -24,36 +24,7 @@
 			<xsd:element name="GetLicenseResponse">
 				<xsd:complexType>
 					<xsd:sequence>
-						<xsd:element name="PersonNumber"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="JurisdictionCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="LicenseNumber"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="StatusCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="StatusReasonCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="DriverClassCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="DriverClassTypeCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="IssueDate"
-							type="xsd:dateTime">
-						</xsd:element>
-						<xsd:element name="ExpiryDate"
-							type="xsd:dateTime">
-						</xsd:element>
-						<xsd:element name="EndDate"
-							type="xsd:dateTime">
-						</xsd:element>
+						<xsd:element name="out" type="xsd:string"></xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -61,12 +32,7 @@
 				<xsd:complexType>
 					<xsd:sequence>
 
-						<xsd:element name="PersonNumber"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="JurisdictionCode"
-							type="xsd:string">
-						</xsd:element>
+						<xsd:element name="in" type="xsd:string"></xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -74,33 +40,7 @@
 				<xsd:complexType>
 					<xsd:sequence>
 
-						<xsd:element name="JurisdictionCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="PersonNumber"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="StatusCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="ClassCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="Surname" type="xsd:string">
-						</xsd:element>
-						<xsd:element name="FirstName"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="SubsequentName"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="Gender" type="xsd:string">
-						</xsd:element>
-						<xsd:element name="DOB" type="xsd:dateTime">
-						</xsd:element>
-						<xsd:element name="SuppressionCode"
-							type="xsd:string">
-						</xsd:element>
+						<xsd:element name="out" type="xsd:string"></xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -108,12 +48,7 @@
 				<xsd:complexType>
 					<xsd:sequence>
 
-						<xsd:element name="PersonNumber"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="JurisdictionCode"
-							type="xsd:string">
-						</xsd:element>
+						<xsd:element name="in" type="xsd:string"></xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -121,27 +56,7 @@
 				<xsd:complexType>
 					<xsd:sequence>
 
-						<xsd:element name="AddressTypeCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="HouseNumber"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="StreetName"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="StreetTypeCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="StreetSuffixCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="StateCode"
-							type="xsd:string">
-						</xsd:element>
-						<xsd:element name="PostCode"
-							type="xsd:string">
-						</xsd:element>
+						<xsd:element name="out" type="xsd:string"></xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
