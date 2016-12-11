@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_sdbBQb_rEeaSLqT-rKktnQ" label="AustRoads" description="" language="java" technicalLabel="AUSTROADS" creationDate="2016-12-12T08:48:22.000+1100" author="_sdbBQr_rEeaSLqT-rKktnQ" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/tristansander/talend&quot;,&quot;login&quot;:&quot;tristan.sander@servian.com&quot;,&quot;passwd&quot;:&quot;TS94tvLIfBZe5Bct/HGu2g==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM"/>
+  <TalendProperties:User xmi:id="_sdbBQr_rEeaSLqT-rKktnQ" login="tristan.sander@servian.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
