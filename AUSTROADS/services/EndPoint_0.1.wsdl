@@ -247,8 +247,8 @@
 	</wsdl:binding>
 
 	<wsdl:service name="EndPoint">
-		<wsdl:port name="EndPointPort" binding="tns:EndPointBinding">
-			<soap:address location="http://localhost:8090/services/EndPoint" />
-		</wsdl:port>
+		<wsdl:port name="EndPointPort" binding="tns:EndPointBinding">
+            <http:address location="http://localhost:8090/services/EndPoint"/>
+        </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
