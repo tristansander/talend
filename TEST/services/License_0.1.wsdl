@@ -31,14 +31,15 @@
     </wsdl:types>
 
 	<wsdl:message name="getLicenseRequest">
-		<wsdl:part name="parameters" element="tns:getLicenseRequest"></wsdl:part>
+		<wsdl:part name="parameters"
+			element="http:getLicenseByNumber">
+		</wsdl:part>
 	</wsdl:message>
 	<wsdl:message name="getLicenseResponse">
-		<wsdl:part name="parameters" element="tns:getLicenseResponse"></wsdl:part>
+		<wsdl:part name="parameters" element="http:getLicenseByNumberResponse"></wsdl:part>
 	</wsdl:message>
 
-	<wsdl:message name="parameter">
-		<wsdl:part name="parameter" element="http:getLicenseByNumber"></wsdl:part>
+	<wsdl:message name="parameter">
 	</wsdl:message>
     <wsdl:message name="NewMessage">
     	<wsdl:part name="parameter"
@@ -46,29 +47,30 @@
     	</wsdl:part></wsdl:message>
     <wsdl:portType name="LicensePortType">
 		<wsdl:operation name="getLicense">
-			<wsdl:input message="http:parameter"></wsdl:input>
-			<wsdl:output message="http:NewMessage"></wsdl:output>
+			<wsdl:input message="http:getLicenseRequest"></wsdl:input>
+			<wsdl:output message="http:getLicenseResponse"></wsdl:output>
 		</wsdl:operation>
 	</wsdl:portType>
 
-	<wsdl:binding name="LicenseBinding" type="http:LicensePortType">
+    <wsdl:binding name="LicenseBinding" type="http:LicensePortType">
 
-		<http:binding verb="GET" />
-		<wsdl:operation name="getLicense">
+    	<http:binding verb="GET" />
+    	<wsdl:operation name="getLicense">
 
-			<http:operation location="/LicenseOperation" />
-			<wsdl:input>
+    		<http:operation location="/getLicense" />
+    		<wsdl:input>
 
-				<http:urlEncoded />
-			</wsdl:input>
-			<wsdl:output>
-				<mime:content type="text/xml" />
+    			<http:urlEncoded />
+    		</wsdl:input>
+    		<wsdl:output>
+    			<mime:content type="text/xml" />
 
-			</wsdl:output>
-		</wsdl:operation>
-	</wsdl:binding>
 
-	<wsdl:service name="License">
+    		</wsdl:output>
+    	</wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="License">
 		<wsdl:port name="LicensePort" binding="http:LicenseBinding">
             <http:address location="http://localhost:8090/services/License"/>
         </wsdl:port>
