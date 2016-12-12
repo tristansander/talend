@@ -33,29 +33,6 @@
 		<wsdl:part name="parameters" element="tns:simpleOperationResponse"></wsdl:part>
 	</wsdl:message>
 
-	<wsdl:portType name="simplePortType">
-		<wsdl:operation name="simpleOperation">
-			<wsdl:input message="tns:simpleOperationRequest"></wsdl:input>
-			<wsdl:output message="tns:simpleOperationResponse"></wsdl:output>
-		</wsdl:operation>
-	</wsdl:portType>
 
-	<wsdl:binding name="simpleBinding" type="tns:simplePortType">
-		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
-		<wsdl:operation name="simpleOperation">
-			<soap:operation soapAction="http://www.talend.org/service/simpleOperation" />
-			<wsdl:input>
-				<soap:body use="literal" />
-			</wsdl:input>
-			<wsdl:output>
-				<soap:body use="literal" />
-			</wsdl:output>
-		</wsdl:operation>
-	</wsdl:binding>
 
-	<wsdl:service name="simple">
-		<wsdl:port name="simplePort" binding="tns:simpleBinding">
-			<soap:address location="http://localhost:8090/services/simple" />
-		</wsdl:port>
-	</wsdl:service>
 </wsdl:definitions>
