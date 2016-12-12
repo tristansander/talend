@@ -3,7 +3,7 @@
   <Services:ServiceConnection xmi:id="_5ksnQb_wEeaSLqT-rKktnQ" servicePort="_yjwqwMBWEeaArM-Fifit7A">
     <additionalInfo xmi:id="_XdFVAMAtEeaSLqT-rKktnQ" key="groupId" value="org.example"/>
     <additionalInfo xmi:id="_XdFVAcAtEeaSLqT-rKktnQ" key="artifactId" value="EndPoint"/>
-    <additionalInfo xmi:id="_XdFVAsAtEeaSLqT-rKktnQ" key="version" value="0.1.0"/>
+    <additionalInfo xmi:id="_XdFVAsAtEeaSLqT-rKktnQ" key="version" value="0.1.1"/>
   </Services:ServiceConnection>
   <Services:ServicePort xmi:id="_yjwqwMBWEeaArM-Fifit7A" name="EndPointPortType" id="_5nRaIL_wEeaSLqT-rKktnQ" serviceOperation="_yjwqwcBWEeaArM-Fifit7A _yjwqwsBWEeaArM-Fifit7A _yjwqw8BWEeaArM-Fifit7A"/>
   <Services:ServiceOperation xmi:id="_yjwqwcBWEeaArM-Fifit7A" label="GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ"/>
