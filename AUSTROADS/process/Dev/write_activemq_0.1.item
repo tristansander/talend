@@ -142,7 +142,7 @@
     <elementParameter field="TEXT" name="NB_ROWS" value="1" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
-      <elementValue elementRef="ARRAY" value="&quot;PL2REQQ49915982517150058&quot;+&#xA;&quot;\nUNB+ARDS:1+NEVDIS+TRAILS-QDOT+2016-11-24:16.16.42+NEVDIS1&quot;+&#xA;&quot;\nUNH+1+LICEN2:1:1:AR&quot;+&#xA;&quot;\nBGM:1+R&quot;+&#xA;&quot;\nPER:1+A+610304666+++SMITH+JOHN++M+1986-09-21+000++++A&quot;+&#xA;&quot;\nLIC:1+A+5190886+A++U+C+U+A++++2012-07-24+2016-08-20+00+0000-00-00+0000-00-00+0000-00-00+0000-00-00+0000-00-00+0000-00-00&quot;+&#xA;&quot;\nADD:1+R++++++114+BLAMEY+CR++++CAMPBELL+ACT+++2612&quot;+&#xA;&quot;\nUNT+000007+1&quot;+&#xA;&quot;\nUNZ+1+NEVDIS1&quot; "/>
+      <elementValue elementRef="ARRAY" value="&quot;PL2REQQ49915982517150058\nUNB+ARDS:1+TRAILS-QDOT+NEVDIS+2016-11-24:15.16.42+15982517150058\nUNH+1+PL2REQ:1:1:AR\nBGM:1+R\nPLI:1+5190886+A\nUNT+4+1\nUNZ+1+15982517150058&quot; "/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -150,7 +150,7 @@
       <column comment="" key="false" length="-1" name="message" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMomOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+  <node componentName="tMomOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomOutput_1" show="false"/>
     <elementParameter field="CHECK" name="USE_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomConnection_1"/>
@@ -208,7 +208,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out_message" show="false"/>
   </connection>
-  <note opaque="true" posX="384" posY="32" sizeHeight="193" sizeWidth="609" text="# 02/12/2106 - SC #&#xA; - Created test job to write to the queue &quot;Out_Queue&quot;. &#xA;    This job simply connects to queue and writes a  &#xA;    message to it.&#xA;&#xA;    To check the messages after sending them access this link &#xA;    http://54.206.67.28:8161/admin/browse.jsp?JMSDestination=Out_Queue&#xA;    admin admin">
+  <note opaque="true" posX="608" posY="32" sizeHeight="193" sizeWidth="609" text="# 02/12/2106 - SC #&#xA; - Created test job to write to the queue &quot;Out_Queue&quot;. &#xA;    This job simply connects to queue and writes a  &#xA;    message to it.&#xA;&#xA;    To check the messages after sending them access this link &#xA;    http://54.206.67.28:8161/admin/browse.jsp?JMSDestination=Out_Queue&#xA;    admin admin">
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
