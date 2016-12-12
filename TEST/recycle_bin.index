@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2016-10-05T15:39:27.198+1100"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2016-12-13T09:55:39.611+1100">
+  <deletedItems id="_-xGhAMC8Eea8P7qgR9K41w" path="License/LicensePortType/LicenseOperation" type="PROCESS"/>
+</recyclebin:RecycleBin>

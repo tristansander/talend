@@ -21,12 +21,31 @@
 			</xsd:element>
 		</xsd:schema>
         <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.xmlsoap.org/wsdl/http/">
-        	<xsd:element name="getLicenseByNumber" type="xsd:string">
+        	<xsd:element name="getLicenseByNumber" type="http:Info">
         	</xsd:element>
         	<xsd:element name="getLicenseByNumberResponse"
-        		type="xsd:string">
+        		type="http:LicenseProfile">
         	</xsd:element>
-        	
+
+
+        	<xsd:complexType name="Info">
+        		<xsd:sequence>
+        			<xsd:element name="LicenseNumber"
+        				type="xsd:string" minOccurs="1" maxOccurs="1">
+        			</xsd:element>
+        			<xsd:element name="Authority" type="xsd:string" minOccurs="0"></xsd:element>
+        		</xsd:sequence>
+        	</xsd:complexType>
+        
+        	<xsd:complexType name="LicenseProfile">
+        		<xsd:sequence>
+        			<xsd:element name="LicenseNumber"
+        				type="xsd:string" minOccurs="1">
+        			</xsd:element>
+        			<xsd:element name="Authority" type="xsd:string" minOccurs="0"></xsd:element>
+        			<xsd:element name="ExpiryDate" type="xsd:date" minOccurs="1"></xsd:element>
+        		</xsd:sequence>
+        	</xsd:complexType>
         </xsd:schema>
     </wsdl:types>
 
