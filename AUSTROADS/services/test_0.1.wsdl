@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions name="test"
-		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-		xmlns:tns="http://www.talend.org/service/"
-		targetNamespace="http://www.talend.org/service/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/">
+		targetNamespace="http://www.talend.org/service/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://www.talend.org/service/" xmlns:p="http://schemas.xmlsoap.org/wsdl/http/">
 
 	<wsdl:types>
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -39,6 +35,20 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="NewElement" type="http:NewType"></xsd:element>
+			<xsd:element name="NewElement1" type="http:NewType1"></xsd:element>
+
+			<xsd:complexType name="NewType">
+				<xsd:sequence>
+					<xsd:element name="NewElement" type="xsd:string"></xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		
+			<xsd:complexType name="NewType1">
+				<xsd:sequence>
+					<xsd:element name="NewElement" type="xsd:string"></xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
 		</xsd:schema>
 	</wsdl:types>
 
@@ -55,29 +65,32 @@
 	<wsdl:message name="testOperation2Response">
 		<wsdl:part name="parameters" element="tns:testOperation2Response"></wsdl:part>
 	</wsdl:message>
+	<wsdl:message name="NewMessage">
+		<wsdl:part name="NewPart" element="http:NewElement"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="NewMessage1">
+		<wsdl:part name="NewPart" element="http:NewElement1"></wsdl:part>
+	</wsdl:message>
 	<wsdl:portType name="testPortType">
 		<wsdl:operation name="testOperation">
-			<wsdl:input message="tns:testOperationRequest"></wsdl:input>
-			<wsdl:output message="tns:testOperationResponse"></wsdl:output>
-		</wsdl:operation>
-		<wsdl:operation name="testOperation2">
-			<wsdl:input message="tns:testOperation2Request"></wsdl:input>
-			<wsdl:output message="tns:testOperation2Response"></wsdl:output>
-		</wsdl:operation>
+			<wsdl:input message="http:NewMessage"></wsdl:input>
+			<wsdl:output message="http:NewMessage1"></wsdl:output>
+		</wsdl:operation>
 	</wsdl:portType>
 
-	<wsdl:binding name="testBinding" type="tns:testPortType">
+	<wsdl:binding name="testBinding" type="http:testPortType">
 
-		<http:binding verb="GET" />
+		<p:binding verb="GET" />
 		<wsdl:operation name="testOperation">
 
-			<http:operation location="/testOperation" />
+			<p:operation location="/testOperation" />
 			<wsdl:input>
 
-				<http:urlEncoded />
+				<p:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
 				<mime:content type="text/xml" />
+
 
 
 
@@ -85,21 +98,22 @@
 		</wsdl:operation>
 		<wsdl:operation name="testOperation2">
 
-			<http:operation location="/testOperation2" />
+			<p:operation location="/testOperation2" />
 			<wsdl:input>
 
-				<http:urlEncoded />
+				<p:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
 				<mime:content type="text/xml" />
+
 
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
 
 	<wsdl:service name="test">
-		<wsdl:port name="testPort" binding="tns:testBinding">
-            <http:address location="http://localhost:8090/services/test"/>
+		<wsdl:port name="testPort" binding="http:testBinding">
+            <p:address location="http://localhost:8090/services/test"/>
         </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
