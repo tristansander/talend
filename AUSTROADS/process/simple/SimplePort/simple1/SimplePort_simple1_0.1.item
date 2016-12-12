@@ -190,10 +190,10 @@
       <column comment="" key="false" length="-1" name="body" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="licence">
-        <mapperTableEntries name="body" expression="&quot;{\&quot;&quot;+  row1.LicenseNumber + &quot;\&quot;,\&quot;&quot; +  row1.JurisdictionCode + &quot;\&quot;}&quot; " type="id_String" nullable="true"/>
+        <mapperTableEntries name="body" expression="&quot;{\&quot;&quot;+  row1.LicenseNumber + &quot;\&quot;:\&quot;\&quot;,\&quot;&quot; +  row1.JurisdictionCode + &quot;\&quot;:\&quot;\&quot;}&quot; " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="LicenseNumber" type="id_String" nullable="true"/>
