@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
-  <Services:ServiceConnection xmi:id="_5ksnQb_wEeaSLqT-rKktnQ" servicePort="_itYHEMA5EeaArM-Fifit7A">
+  <Services:ServiceConnection xmi:id="_5ksnQb_wEeaSLqT-rKktnQ" servicePort="_R8ni0MA9EeaArM-Fifit7A">
     <additionalInfo xmi:id="_XdFVAMAtEeaSLqT-rKktnQ" key="groupId" value="org.example"/>
     <additionalInfo xmi:id="_XdFVAcAtEeaSLqT-rKktnQ" key="artifactId" value="EndPoint"/>
     <additionalInfo xmi:id="_XdFVAsAtEeaSLqT-rKktnQ" key="version" value="0.1.0"/>
   </Services:ServiceConnection>
-  <Services:ServicePort xmi:id="_itYHEMA5EeaArM-Fifit7A" name="EndPointPortType" id="_5nRaIL_wEeaSLqT-rKktnQ" serviceOperation="_itYHEcA5EeaArM-Fifit7A _itYHEsA5EeaArM-Fifit7A _itYHE8A5EeaArM-Fifit7A"/>
-  <Services:ServiceOperation xmi:id="_itYHEcA5EeaArM-Fifit7A" label="GetLicense-EndPointPortType_GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ" referenceJobId="_4Sqa0L_0EeaSLqT-rKktnQ"/>
-  <Services:ServiceOperation xmi:id="_itYHEsA5EeaArM-Fifit7A" label="GetPerson" name="GetPerson" id="__5y2Mb_yEeaSLqT-rKktnQ"/>
-  <Services:ServiceOperation xmi:id="_itYHE8A5EeaArM-Fifit7A" label="GetAddress-EndPointPortType_GetAddress" name="GetAddress" id="__5y2Mr_yEeaSLqT-rKktnQ" referenceJobId="_FsrfYMA2EeaArM-Fifit7A"/>
+  <Services:ServicePort xmi:id="_R8ni0MA9EeaArM-Fifit7A" name="EndPointPortType" id="_5nRaIL_wEeaSLqT-rKktnQ" serviceOperation="_R8ni0cA9EeaArM-Fifit7A _R8ni0sA9EeaArM-Fifit7A _R8ni08A9EeaArM-Fifit7A"/>
+  <Services:ServiceOperation xmi:id="_R8ni0cA9EeaArM-Fifit7A" label="GetLicense-EndPointPortType_GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ" referenceJobId="_4Sqa0L_0EeaSLqT-rKktnQ"/>
+  <Services:ServiceOperation xmi:id="_R8ni0sA9EeaArM-Fifit7A" label="GetPerson" name="GetPerson" id="__5y2Mb_yEeaSLqT-rKktnQ"/>
+  <Services:ServiceOperation xmi:id="_R8ni08A9EeaArM-Fifit7A" label="GetAddress-EndPointPortType_GetAddress" name="GetAddress" id="__5y2Mr_yEeaSLqT-rKktnQ" referenceJobId="_FsrfYMA2EeaArM-Fifit7A"/>
 </xmi:XMI>

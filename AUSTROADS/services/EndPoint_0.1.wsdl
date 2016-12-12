@@ -196,6 +196,7 @@
 				<mime:content type="text/xml" />
 
 
+
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="GetPerson">
@@ -208,6 +209,7 @@
 			<wsdl:output>
 				<mime:content type="text/xml" />
 
+
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="GetAddress">
@@ -219,6 +221,7 @@
 			</wsdl:input>
 			<wsdl:output>
 				<mime:content type="text/xml" />
+
 
 			</wsdl:output>
 		</wsdl:operation>
