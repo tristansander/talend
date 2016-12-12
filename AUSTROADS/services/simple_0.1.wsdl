@@ -105,7 +105,7 @@
 	</wsdl:binding>
 	<wsdl:service name="SimpleService">
 		<wsdl:port name="NewPort" binding="tns:simpleBinding">
-            <http:address location="http://localhost:8090/simple"/>
+            <http:address location="http://localhost:8090"/>
         </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
