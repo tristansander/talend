@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
-  <Services:ServiceConnection xmi:id="_5ksnQb_wEeaSLqT-rKktnQ" servicePort="_AXKusL_zEeaSLqT-rKktnQ">
+  <Services:ServiceConnection xmi:id="_5ksnQb_wEeaSLqT-rKktnQ" servicePort="_9wJGoMA1EeaArM-Fifit7A">
     <additionalInfo xmi:id="_XdFVAMAtEeaSLqT-rKktnQ" key="groupId" value="org.example"/>
     <additionalInfo xmi:id="_XdFVAcAtEeaSLqT-rKktnQ" key="artifactId" value="EndPoint"/>
     <additionalInfo xmi:id="_XdFVAsAtEeaSLqT-rKktnQ" key="version" value="0.1.0"/>
   </Services:ServiceConnection>
-  <Services:ServicePort xmi:id="_AXKusL_zEeaSLqT-rKktnQ" name="EndPointPortType" id="_5nRaIL_wEeaSLqT-rKktnQ" serviceOperation="_AXLVwL_zEeaSLqT-rKktnQ _AXLVwb_zEeaSLqT-rKktnQ _AXLVwr_zEeaSLqT-rKktnQ"/>
-  <Services:ServiceOperation xmi:id="_AXLVwL_zEeaSLqT-rKktnQ" label="GetLicense-EndPointPortType_GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ" referenceJobId="_4Sqa0L_0EeaSLqT-rKktnQ"/>
-  <Services:ServiceOperation xmi:id="_AXLVwb_zEeaSLqT-rKktnQ" label="GetPerson" name="GetPerson" id="__5y2Mb_yEeaSLqT-rKktnQ" inBinding="false"/>
-  <Services:ServiceOperation xmi:id="_AXLVwr_zEeaSLqT-rKktnQ" label="GetAddress" name="GetAddress" id="__5y2Mr_yEeaSLqT-rKktnQ" inBinding="false"/>
+  <Services:ServicePort xmi:id="_9wJGoMA1EeaArM-Fifit7A" name="EndPointPortType" id="_5nRaIL_wEeaSLqT-rKktnQ" serviceOperation="_9wJGocA1EeaArM-Fifit7A _9wJGosA1EeaArM-Fifit7A _9wJGo8A1EeaArM-Fifit7A"/>
+  <Services:ServiceOperation xmi:id="_9wJGocA1EeaArM-Fifit7A" label="GetLicense-EndPointPortType_GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ" referenceJobId="_4Sqa0L_0EeaSLqT-rKktnQ"/>
+  <Services:ServiceOperation xmi:id="_9wJGosA1EeaArM-Fifit7A" label="GetPerson" name="GetPerson" id="__5y2Mb_yEeaSLqT-rKktnQ"/>
+  <Services:ServiceOperation xmi:id="_9wJGo8A1EeaArM-Fifit7A" label="GetAddress" name="GetAddress" id="__5y2Mr_yEeaSLqT-rKktnQ"/>
 </xmi:XMI>

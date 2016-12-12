@@ -4,7 +4,7 @@
 		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
 		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 		xmlns:tns="http://www.talend.org/service/"
-		targetNamespace="http://www.talend.org/service/">
+		targetNamespace="http://www.talend.org/service/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/">
 
 	<wsdl:types>
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -145,6 +145,22 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Response">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
 		</xsd:schema>
 	</wsdl:types>
 
@@ -167,6 +183,12 @@
 	<wsdl:message name="GetAddressResponse">
 		<wsdl:part name="parameters" element="tns:GetAddressResponse"></wsdl:part>
 	</wsdl:message>
+	<wsdl:message name="Request">
+		<wsdl:part name="parameters" element="tns:"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="Response">
+		<wsdl:part name="parameters" element="tns:Response"></wsdl:part>
+	</wsdl:message>
 	<wsdl:portType name="EndPointPortType">
 		<wsdl:operation name="GetLicense">
 			<wsdl:input message="tns:GetLicenseRequest"></wsdl:input>
@@ -179,18 +201,40 @@
 		<wsdl:operation name="GetAddress">
 			<wsdl:input message="tns:GetAddressRequest"></wsdl:input>
 			<wsdl:output message="tns:GetAddressResponse"></wsdl:output>
-		</wsdl:operation>
+		</wsdl:operation>
 	</wsdl:portType>
 
 	<wsdl:binding name="EndPointBinding" type="tns:EndPointPortType">
-		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+
+		<http:binding verb="GET" />
 		<wsdl:operation name="GetLicense">
-			<soap:operation soapAction="http://www.talend.org/service/GetLicense" />
+
+			<http:operation location="/GetLicense" />
 			<wsdl:input>
-				<soap:body use="literal" />
+
+				<http:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
-				<soap:body use="literal" />
+				<mime:content type="text/xml" />
+
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="GetPerson">
+			<http:operation location="/GetPerson" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="GetAddress">
+			<http:operation location="/GetAddress" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" />
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
