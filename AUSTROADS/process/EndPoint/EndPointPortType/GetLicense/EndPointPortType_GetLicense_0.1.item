@@ -118,7 +118,6 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_5ksnQL_wEeaSLqT-rKktnQ - _5nRaIL_wEeaSLqT-rKktnQ - __5y2ML_yEeaSLqT-rKktnQ" show="false"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
     <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Talend-Studio-20160704_1411-V6.2.1/workspace/.repositories/977225067/master/AUSTROADS/services/EndPoint_0.1.wsdl" show="false"/>
-    <elementParameter field="TEXT" name="ENDPOINT_URI" value="/esb/provider" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.talend.org/service/" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" value="EndPoint" show="false"/>
     <elementParameter field="TEXT" name="PORT_NS" value="http://www.talend.org/service/" show="false"/>
@@ -126,7 +125,7 @@
     <elementParameter field="TEXT" name="OPERATION_NS" value="" show="false"/>
     <elementParameter field="TEXT" name="OPERATION_NAME" value="GetLicense" show="false"/>
     <elementParameter field="TEXT" name="COMMUNICATION_STYLE" value="request-response" show="false"/>
-    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tESBProviderRequest_1">
       <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
