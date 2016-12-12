@@ -80,15 +80,19 @@
 				<mime:content type="text/xml" />
 
 
+
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="testOperation2">
+
 			<http:operation location="/testOperation2" />
 			<wsdl:input>
+
 				<http:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
 				<mime:content type="text/xml" />
+
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
