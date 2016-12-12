@@ -64,17 +64,20 @@
 
 	<wsdl:binding name="simpleBinding" type="tns:simplePortType">
 
-		<http:binding verb="GET" />
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
 		<wsdl:operation name="simpleOperation">
 
-			<http:operation location="/simpleOperation" />
+			<soap:operation
+				soapAction="http://www.talend.org/service/simpleOperation" />
 			<wsdl:input>
 
-				<http:urlEncoded />
+				<soap:body use="literal" />
 			</wsdl:input>
 			<wsdl:output>
-				<mime:content type="text/xml" />
 
+
+				<soap:body use="literal" />
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
-  <Services:ServiceConnection xmi:id="_K_SzQcBcEea2NZYIdY115Q" servicePort="_Ocu8IMCsEeazV9yC2VyUdQ">
+  <Services:ServiceConnection xmi:id="_K_SzQcBcEea2NZYIdY115Q" servicePort="_SdgC4MCsEeazV9yC2VyUdQ">
     <additionalInfo xmi:id="_iCMHIMBcEea2NZYIdY115Q" key="groupId" value="org.example"/>
     <additionalInfo xmi:id="_iCMHIcBcEea2NZYIdY115Q" key="artifactId" value="simple"/>
     <additionalInfo xmi:id="_iCMHIsBcEea2NZYIdY115Q" key="version" value="0.1.0"/>
   </Services:ServiceConnection>
-  <Services:ServicePort xmi:id="_Ocu8IMCsEeazV9yC2VyUdQ" name="simplePortType" id="_K_luMMBcEea2NZYIdY115Q" serviceOperation="_Oc4tIMCsEeazV9yC2VyUdQ"/>
-  <Services:ServiceOperation xmi:id="_Oc4tIMCsEeazV9yC2VyUdQ" label="simpleOperation" name="simpleOperation" id="_K_luMcBcEea2NZYIdY115Q"/>
+  <Services:ServicePort xmi:id="_SdgC4MCsEeazV9yC2VyUdQ" name="simplePortType" id="_K_luMMBcEea2NZYIdY115Q" serviceOperation="_SdgC4cCsEeazV9yC2VyUdQ"/>
+  <Services:ServiceOperation xmi:id="_SdgC4cCsEeazV9yC2VyUdQ" label="simpleOperation" name="simpleOperation" id="_K_luMcBcEea2NZYIdY115Q"/>
 </xmi:XMI>
