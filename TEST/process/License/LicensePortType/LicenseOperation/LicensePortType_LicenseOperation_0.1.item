@@ -119,16 +119,16 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_eedVgMC7Eea8P7qgR9K41w - _egBbwMC7Eea8P7qgR9K41w - _egCC0MC7Eea8P7qgR9K41w" show="false"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
-    <elementParameter field="TEXT" name="WSDL_LOCATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="WSDL_LOCATION" value="/Users/adrienfollin/Desktop/Talend/Talend-Studio-20160704_1411-V6.2.1/workspace/.repositories/977225067/master/TEST/services/License_0.1.wsdl" show="false"/>
     <elementParameter field="TEXT" name="ENDPOINT_URI" value="/esb/provider" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://talend.org/esb/service/job" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" value="--DEFAULT--" show="false"/>
     <elementParameter field="TEXT" name="PORT_NS" value="http://talend.org/esb/service/job" show="false"/>
     <elementParameter field="TEXT" name="PORT_NAME" value="--DEFAULT--" show="false"/>
     <elementParameter field="TEXT" name="OPERATION_NS" value="" show="false"/>
-    <elementParameter field="TEXT" name="OPERATION_NAME" value="invoke" show="false"/>
+    <elementParameter field="TEXT" name="OPERATION_NAME" value="LicenseOperation" show="false"/>
     <elementParameter field="TEXT" name="COMMUNICATION_STYLE" value="" show="false"/>
-    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tESBProviderRequest_2">
       <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
