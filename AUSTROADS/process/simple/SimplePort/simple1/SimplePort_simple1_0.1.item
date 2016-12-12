@@ -114,7 +114,7 @@
   </parameters>
   <node componentName="tRESTRequest" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTRequest_1" show="false"/>
-    <elementParameter field="TEXT" name="REST_ENDPOINT" value="&quot;http://ec2-54-206-67-28.ap-southeast-2.compute.amazonaws.com:8088/&quot;"/>
+    <elementParameter field="TEXT" name="REST_ENDPOINT" value="&quot;http://127.0.0.1:8088/&quot;"/>
     <elementParameter field="TABLE" name="SCHEMAS">
       <elementValue elementRef="SCHEMA" value="getLicense"/>
       <elementValue elementRef="HTTP_VERB" value="GET"/>
