@@ -117,39 +117,41 @@
     <elementParameter field="TEXT" name="NB_ROWS" value="100" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="jurisdiction_code"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="&quot;A&quot; "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="person_number"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="&quot;5190886&quot; "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="status_code"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="class_code"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="surname"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getLastName()"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getFirstName()"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="subsequent_name"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getFirstName()"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="gender"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="dob"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="suppression_code"/>
       <elementValue elementRef="ARRAY" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="address_type_code"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="house_number"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="street_name"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getUsStreet()"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="street_type_code"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="street_suffix_code"/>
       <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="suburb_locality"/>
+      <elementValue elementRef="ARRAY" value="&quot;CAMBELL&quot; "/>
       <elementValue elementRef="SCHEMA_COLUMN" value="state_code"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6 )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="postcode"/>
-      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="ARRAY" value=" "/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -169,6 +171,7 @@
       <column comment="" key="false" length="25" name="street_name" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="25" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="street_type_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="4" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="street_suffix_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="2" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="suburb_locality" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="state_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="3" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="postcode" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="4" usefulColumn="true"/>
     </metadata>
@@ -279,6 +282,11 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="suburb_locality"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="state_code"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
@@ -313,6 +321,7 @@
       <column comment="" key="false" length="25" name="street_name" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="25" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="street_type_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="4" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="street_suffix_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="2" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="suburb_locality" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="state_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="3" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="postcode" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="4" usefulColumn="true"/>
     </metadata>
@@ -332,6 +341,7 @@
       <column comment="" key="false" length="25" name="street_name" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="25" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="street_type_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="4" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="street_suffix_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="2" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="suburb_locality" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="state_code" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="3" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="postcode" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="4" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
