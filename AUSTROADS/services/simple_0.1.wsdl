@@ -23,6 +23,22 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="NewOperation">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="NewOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
 		</xsd:schema>
 	</wsdl:types>
 
@@ -33,11 +49,17 @@
 		<wsdl:part name="parameters" element="tns:simpleOperationResponse"></wsdl:part>
 	</wsdl:message>
 
+	<wsdl:message name="NewOperationRequest">
+		<wsdl:part name="parameters" element="tns:NewOperation"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="NewOperationResponse">
+		<wsdl:part name="parameters" element="tns:NewOperationResponse"></wsdl:part>
+	</wsdl:message>
 	<wsdl:portType name="simplePortType">
 		<wsdl:operation name="simpleOperation">
 			<wsdl:input message="tns:simpleOperationRequest"></wsdl:input>
 			<wsdl:output message="tns:simpleOperationResponse"></wsdl:output>
-		</wsdl:operation>
+		</wsdl:operation>
 	</wsdl:portType>
 
 	<wsdl:binding name="simpleBinding" type="tns:simplePortType">
@@ -58,8 +80,8 @@
 	</wsdl:binding>
 
 	<wsdl:service name="simple">
-		<wsdl:port name="simplePort" binding="tns:simpleBinding">
-            <http:address location="http://localhost:8090/services/simple"/>
+		<wsdl:port name="simplePort" binding="tns:simpleBinding">
+            <soap:address location="http://localhost:8090/services/simple"/>
         </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
