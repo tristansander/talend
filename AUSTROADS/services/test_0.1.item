@@ -3,5 +3,5 @@
   <Services:ServiceConnection xmi:id="_Ofp0EcA6EeaArM-Fifit7A" servicePort="_zQBIEMA7EeaArM-Fifit7A"/>
   <Services:ServicePort xmi:id="_zQBIEMA7EeaArM-Fifit7A" name="testPortType" id="_Ohj4kMA6EeaArM-Fifit7A" serviceOperation="_zQBIEcA7EeaArM-Fifit7A _zQBIEsA7EeaArM-Fifit7A"/>
   <Services:ServiceOperation xmi:id="_zQBIEcA7EeaArM-Fifit7A" label="testOperation" name="testOperation" id="_Ohj4kcA6EeaArM-Fifit7A"/>
-  <Services:ServiceOperation xmi:id="_zQBIEsA7EeaArM-Fifit7A" label="testOperation2" name="testOperation2" id="_ygxccMA7EeaArM-Fifit7A"/>
+  <Services:ServiceOperation xmi:id="_zQBIEsA7EeaArM-Fifit7A" label="testOperation2-testPortType_testOperation2" name="testOperation2" id="_ygxccMA7EeaArM-Fifit7A" referenceJobId="_6IcYcMA7EeaArM-Fifit7A"/>
 </xmi:XMI>
