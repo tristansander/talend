@@ -127,7 +127,7 @@
     <elementParameter field="TEXT" name="OPERATION_NS" value="" show="false"/>
     <elementParameter field="TEXT" name="OPERATION_NAME" value="getLicense" show="false"/>
     <elementParameter field="TEXT" name="COMMUNICATION_STYLE" value="request-response" show="false"/>
-    <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tESBProviderRequest_1">
       <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
