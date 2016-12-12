@@ -6,5 +6,5 @@
     <additionalInfo xmi:id="_iCMHIsBcEea2NZYIdY115Q" key="version" value="0.1.0"/>
   </Services:ServiceConnection>
   <Services:ServicePort xmi:id="_SdgC4MCsEeazV9yC2VyUdQ" name="simplePortType" id="_K_luMMBcEea2NZYIdY115Q" serviceOperation="_SdgC4cCsEeazV9yC2VyUdQ"/>
-  <Services:ServiceOperation xmi:id="_SdgC4cCsEeazV9yC2VyUdQ" label="simpleOperation" name="simpleOperation" id="_K_luMcBcEea2NZYIdY115Q"/>
+  <Services:ServiceOperation xmi:id="_SdgC4cCsEeazV9yC2VyUdQ" label="simpleOperation-simplePortType_simpleOperation" name="simpleOperation" id="_K_luMcBcEea2NZYIdY115Q" referenceJobId="_XDXCEMBcEea2NZYIdY115Q"/>
 </xmi:XMI>
