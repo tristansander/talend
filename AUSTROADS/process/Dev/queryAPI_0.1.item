@@ -114,7 +114,7 @@
   </parameters>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;http://localhost:8088&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;http://ec2-54-206-67-28.ap-southeast-2.compute.amazonaws.com:8088&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;/license&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml" show="false"/>
@@ -123,7 +123,7 @@
       <elementValue elementRef="NAME" value="&quot;LicenseNumber&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;val1&quot;"/>
       <elementValue elementRef="NAME" value="&quot;JurisdictionCode&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;stuyff&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAMESPACE" value="&quot;http://www.talend.org/rest/&quot;" show="false"/>
