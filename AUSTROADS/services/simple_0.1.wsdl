@@ -41,6 +41,22 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="NewOperation">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="NewOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
 		</xsd:schema>
 	</wsdl:types>
 
@@ -59,11 +75,17 @@
 	<wsdl:message name="simple1Response">
 		<wsdl:part name="parameters" element="tns:simple1Response"></wsdl:part>
 	</wsdl:message>
+	<wsdl:message name="NewOperationRequest">
+		<wsdl:part name="parameters" element="tns:NewOperation"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="NewOperationResponse">
+		<wsdl:part name="parameters" element="tns:NewOperationResponse"></wsdl:part>
+	</wsdl:message>
 	<wsdl:portType name="SimplePort">
 		<wsdl:operation name="simple1">
 			<wsdl:input message="tns:simple1Request"></wsdl:input>
 			<wsdl:output message="tns:simple1Response"></wsdl:output>
-		</wsdl:operation>
+		</wsdl:operation>
 	</wsdl:portType>
 	<wsdl:binding name="simpleBinding" type="tns:SimplePort">
 		<http:binding verb="GET" />
