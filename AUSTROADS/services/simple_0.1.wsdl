@@ -4,7 +4,7 @@
 		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
 		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 		xmlns:tns="http://www.talend.org/service/"
-		targetNamespace="http://www.talend.org/service/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/">
+		targetNamespace="http://www.talend.org/service/">
 
 	<wsdl:types>
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -23,22 +23,6 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="NewOperation">
-				<xsd:complexType>
-					<xsd:sequence>
-
-						<xsd:element name="in" type="xsd:string"></xsd:element>
-					</xsd:sequence>
-				</xsd:complexType>
-			</xsd:element>
-			<xsd:element name="NewOperationResponse">
-				<xsd:complexType>
-					<xsd:sequence>
-
-						<xsd:element name="out" type="xsd:string"></xsd:element>
-					</xsd:sequence>
-				</xsd:complexType>
-			</xsd:element>
 		</xsd:schema>
 	</wsdl:types>
 
@@ -49,35 +33,29 @@
 		<wsdl:part name="parameters" element="tns:simpleOperationResponse"></wsdl:part>
 	</wsdl:message>
 
-	<wsdl:message name="NewOperationRequest">
-		<wsdl:part name="parameters" element="tns:NewOperation"></wsdl:part>
-	</wsdl:message>
-	<wsdl:message name="NewOperationResponse">
-		<wsdl:part name="parameters" element="tns:NewOperationResponse"></wsdl:part>
-	</wsdl:message>
 	<wsdl:portType name="simplePortType">
 		<wsdl:operation name="simpleOperation">
 			<wsdl:input message="tns:simpleOperationRequest"></wsdl:input>
 			<wsdl:output message="tns:simpleOperationResponse"></wsdl:output>
-		</wsdl:operation>
+		</wsdl:operation>
 	</wsdl:portType>
 
-
-	<wsdl:binding name="httpBind" type="tns:simplePortType">
-		<http:binding verb="GET" />
+	<wsdl:binding name="simpleBinding" type="tns:simplePortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
 		<wsdl:operation name="simpleOperation">
-			<http:operation location="/simpleOperation" />
+			<soap:operation soapAction="http://www.talend.org/service/simpleOperation" />
 			<wsdl:input>
-				<http:urlEncoded />
+				<soap:body use="literal" />
 			</wsdl:input>
 			<wsdl:output>
-				<mime:content type="text/xml" />
+				<soap:body use="literal" />
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
+
 	<wsdl:service name="simple">
-		<wsdl:port name="HTTPPort" binding="tns:httpBind">
-			<http:address location="http://localhost:8090/http" />
+		<wsdl:port name="simplePort" binding="tns:simpleBinding">
+			<soap:address location="http://localhost:8090/services/simple" />
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
