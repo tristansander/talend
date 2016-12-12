@@ -122,7 +122,7 @@
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.talend.org/service/" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" value="EndPoint" show="false"/>
     <elementParameter field="TEXT" name="PORT_NS" value="http://www.talend.org/service/" show="false"/>
-    <elementParameter field="TEXT" name="PORT_NAME" value="EndPointPort" show="false"/>
+    <elementParameter field="TEXT" name="PORT_NAME" value="AustRoadsPort" show="false"/>
     <elementParameter field="TEXT" name="OPERATION_NS" value="" show="false"/>
     <elementParameter field="TEXT" name="OPERATION_NAME" value="GetLicense" show="false"/>
     <elementParameter field="TEXT" name="COMMUNICATION_STYLE" value="request-response" show="false"/>

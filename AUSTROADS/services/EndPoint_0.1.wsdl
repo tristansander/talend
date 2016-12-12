@@ -149,7 +149,7 @@
 	</wsdl:types>
 
 	<wsdl:message name="GetLicenseRequest">
-		<wsdl:part name="parameters" element="tns:GetLicenseRequest"></wsdl:part>
+		<wsdl:part name="parameters" element="tns:GetLicenseRequest"></wsdl:part>
 	</wsdl:message>
 	<wsdl:message name="GetLicenseResponse">
 		<wsdl:part name="parameters" element="tns:GetLicenseResponse"></wsdl:part>
@@ -166,13 +166,7 @@
 	</wsdl:message>
 	<wsdl:message name="GetAddressResponse">
 		<wsdl:part name="parameters" element="tns:GetAddressResponse"></wsdl:part>
-	</wsdl:message>
-	<wsdl:message name="Request">
-		<wsdl:part name="parameters" element="tns:"></wsdl:part>
-	</wsdl:message>
-	<wsdl:message name="Response">
-		<wsdl:part name="parameters" element="tns:Response"></wsdl:part>
-	</wsdl:message>
+	</wsdl:message>
 	<wsdl:portType name="EndPointPortType">
 		<wsdl:operation name="GetLicense">
 			<wsdl:input message="tns:GetLicenseRequest"></wsdl:input>
@@ -230,9 +224,9 @@
 		</wsdl:operation>
 	</wsdl:binding>
 
-	<wsdl:service name="EndPoint">
-		<wsdl:port name="EndPointPort" binding="tns:EndPointBinding">
-            <http:address location="http://localhost:8090/services/EndPoint"/>
+	<wsdl:service name="EndPoint">
+        <wsdl:port name="AustRoadsPort" binding="tns:EndPointBinding">
+        	<http:address location="http://127.0.0.1:8090/" />
         </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
