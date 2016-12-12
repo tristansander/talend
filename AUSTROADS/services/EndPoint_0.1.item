@@ -8,5 +8,5 @@
   <Services:ServicePort xmi:id="_itYHEMA5EeaArM-Fifit7A" name="EndPointPortType" id="_5nRaIL_wEeaSLqT-rKktnQ" serviceOperation="_itYHEcA5EeaArM-Fifit7A _itYHEsA5EeaArM-Fifit7A _itYHE8A5EeaArM-Fifit7A"/>
   <Services:ServiceOperation xmi:id="_itYHEcA5EeaArM-Fifit7A" label="GetLicense-EndPointPortType_GetLicense" name="GetLicense" id="__5y2ML_yEeaSLqT-rKktnQ" referenceJobId="_4Sqa0L_0EeaSLqT-rKktnQ"/>
   <Services:ServiceOperation xmi:id="_itYHEsA5EeaArM-Fifit7A" label="GetPerson" name="GetPerson" id="__5y2Mb_yEeaSLqT-rKktnQ"/>
-  <Services:ServiceOperation xmi:id="_itYHE8A5EeaArM-Fifit7A" label="GetAddress" name="GetAddress" id="__5y2Mr_yEeaSLqT-rKktnQ"/>
+  <Services:ServiceOperation xmi:id="_itYHE8A5EeaArM-Fifit7A" label="GetAddress-EndPointPortType_GetAddress" name="GetAddress" id="__5y2Mr_yEeaSLqT-rKktnQ" referenceJobId="_FsrfYMA2EeaArM-Fifit7A"/>
 </xmi:XMI>
