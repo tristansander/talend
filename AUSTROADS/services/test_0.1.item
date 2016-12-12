@@ -7,5 +7,5 @@
   </Services:ServiceConnection>
   <Services:ServicePort xmi:id="_SW8HUMA9EeaArM-Fifit7A" name="testPortType" id="_Ohj4kMA6EeaArM-Fifit7A" serviceOperation="_SW8HUcA9EeaArM-Fifit7A _SW8HUsA9EeaArM-Fifit7A"/>
   <Services:ServiceOperation xmi:id="_SW8HUcA9EeaArM-Fifit7A" label="testOperation-testPortType_testOperation" name="testOperation" id="_Ohj4kcA6EeaArM-Fifit7A" referenceJobId="_UtoZQMA6EeaArM-Fifit7A"/>
-  <Services:ServiceOperation xmi:id="_SW8HUsA9EeaArM-Fifit7A" label="testOperation2" name="testOperation2" id="_ygxccMA7EeaArM-Fifit7A"/>
+  <Services:ServiceOperation xmi:id="_SW8HUsA9EeaArM-Fifit7A" label="testOperation2-testPortType_testOperation" name="testOperation2" id="_ygxccMA7EeaArM-Fifit7A" referenceJobId="_UtoZQMA6EeaArM-Fifit7A"/>
 </xmi:XMI>
