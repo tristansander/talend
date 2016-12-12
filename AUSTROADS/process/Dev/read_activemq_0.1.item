@@ -387,7 +387,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1344" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;PLI:1+5190886+A&quot;;&#xA;String s[] = foo.split(&quot;+&quot;, -1);&#xA;&#xA;System.out.println(s[0]);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;PLI:1+5190886+A&quot;;&#xA;String s[] = foo.split(&quot;\\+&quot;, -1);&#xA;&#xA;System.out.println(s[0]);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
