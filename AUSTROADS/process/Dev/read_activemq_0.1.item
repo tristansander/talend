@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -22,6 +22,7 @@
     <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
@@ -95,13 +96,6 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
-    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
-    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
-    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
-    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
     <routinesParameter id="_UPlwIAKBEeaa4MK2NcyXYg" name="DataOperation"/>
     <routinesParameter id="_UP7HUAKBEeaa4MK2NcyXYg" name="Mathematical"/>
     <routinesParameter id="_UP88gAKBEeaa4MK2NcyXYg" name="Numeric"/>
@@ -110,6 +104,13 @@
     <routinesParameter id="_UQDqMAKBEeaa4MK2NcyXYg" name="TalendDataGenerator"/>
     <routinesParameter id="_UQFfYAKBEeaa4MK2NcyXYg" name="TalendDate"/>
     <routinesParameter id="_UQH7oAKBEeaa4MK2NcyXYg" name="TalendString"/>
+    <routinesParameter id="_zCnMkL_rEeaSLqT-rKktnQ" name="DQTechnical"/>
+    <routinesParameter id="_zBzUQL_rEeaSLqT-rKktnQ" name="DataMasking"/>
+    <routinesParameter id="_zCTqkL_rEeaSLqT-rKktnQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_zCGPML_rEeaSLqT-rKktnQ" name="DataQuality"/>
+    <routinesParameter id="_zCdbkL_rEeaSLqT-rKktnQ" name="DqStringHandling"/>
+    <routinesParameter id="_ykH5wL_rEeaSLqT-rKktnQ" name="MDM"/>
+    <routinesParameter id="_zCwWgL_rEeaSLqT-rKktnQ" name="SQLike"/>
   </parameters>
   <node componentName="tMomInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomInput_1" show="false"/>
@@ -230,7 +231,7 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMomConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMomConnection_1" target="tMomInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
-  <note opaque="true" posX="384" posY="32" sizeHeight="161" sizeWidth="449" text="# 01/12/2106 - SC #&#xA; - Created test job to read from the queue &quot;In_Queue&quot;. &#xA;    This job simply connects to queue, reads the &#xA;    messages and prints them to the console.&#xA;&#xA;    The Input component is setup to &quot;keep listening&quot;, therefore the connection&#xA;    will remain open until the user kills the job. &#xA;&#xA;    To check the messages before consuming them access this link &#xA;    http://54.206.67.28:8161/admin/browse.jsp?JMSDestination=In_Queue&#xA;    admin admin&#xA;&#xA;   ">
+  <note opaque="true" posX="384" posY="32" sizeHeight="161" sizeWidth="737" text="# 01/12/2106 - SC #&#xA; - Created test job to read from the queue &quot;In_Queue&quot;. &#xA;    This job simply connects to queue, reads the &#xA;    messages and prints them to the console.&#xA;&#xA;    The Input component is setup to &quot;keep listening&quot;, therefore the connection&#xA;    will remain open until the user kills the job. &#xA;&#xA;    To check the messages before consuming them access this link &#xA;    http://54.206.67.28:8161/admin/browse.jsp?JMSDestination=In_Queue&#xA;    admin admin&#xA;&#xA;   ">
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>

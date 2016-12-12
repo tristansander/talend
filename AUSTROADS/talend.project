@@ -110,6 +110,13 @@
       <relatedItems xmi:id="_7kLIkb_sEeaSLqT-rKktnQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_7kLIkr_sEeaSLqT-rKktnQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_7kLIk7_sEeaSLqT-rKktnQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lr4BgMAREeaSLqT-rKktnQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lr4BgcAREeaSLqT-rKktnQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lr4BgsAREeaSLqT-rKktnQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lr4Bg8AREeaSLqT-rKktnQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lr4BhMAREeaSLqT-rKktnQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lr4BhcAREeaSLqT-rKktnQ" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lr4BhsAREeaSLqT-rKktnQ" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_EsBHsL_2EeaSLqT-rKktnQ">
       <baseItem xmi:id="_EsBHsb_2EeaSLqT-rKktnQ" id="_4Sqa0L_0EeaSLqT-rKktnQ" version="0.1" type="job"/>
