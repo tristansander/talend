@@ -23,6 +23,22 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="testOperation2">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="testOperation2Response">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
 		</xsd:schema>
 	</wsdl:types>
 
@@ -33,10 +49,20 @@
 		<wsdl:part name="parameters" element="tns:testOperationResponse"></wsdl:part>
 	</wsdl:message>
 
+	<wsdl:message name="testOperation2Request">
+		<wsdl:part name="parameters" element="tns:testOperation2"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="testOperation2Response">
+		<wsdl:part name="parameters" element="tns:testOperation2Response"></wsdl:part>
+	</wsdl:message>
 	<wsdl:portType name="testPortType">
 		<wsdl:operation name="testOperation">
 			<wsdl:input message="tns:testOperationRequest"></wsdl:input>
 			<wsdl:output message="tns:testOperationResponse"></wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="testOperation2">
+			<wsdl:input message="tns:testOperation2Request"></wsdl:input>
+			<wsdl:output message="tns:testOperation2Response"></wsdl:output>
 		</wsdl:operation>
 	</wsdl:portType>
 
@@ -53,6 +79,16 @@
 			<wsdl:output>
 				<mime:content type="text/xml" />
 
+
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="testOperation2">
+			<http:operation location="/testOperation2" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" />
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
