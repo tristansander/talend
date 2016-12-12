@@ -121,19 +121,19 @@
       <elementValue elementRef="URI_PATTERN" value="&quot;/licence&quot;"/>
       <elementValue elementRef="CONSUMES" value="NONE"/>
       <elementValue elementRef="PRODUCES" value="JSON"/>
-      <elementValue elementRef="STREAMING" value="false"/>
+      <elementValue elementRef="STREAMING" value="true"/>
       <elementValue elementRef="SCHEMA" value="getPerson"/>
       <elementValue elementRef="HTTP_VERB" value="GET"/>
       <elementValue elementRef="URI_PATTERN" value="&quot;/person&quot;"/>
       <elementValue elementRef="CONSUMES" value="NONE"/>
       <elementValue elementRef="PRODUCES" value="JSON"/>
-      <elementValue elementRef="STREAMING" value="false"/>
+      <elementValue elementRef="STREAMING" value="true"/>
       <elementValue elementRef="SCHEMA" value="getAddress"/>
       <elementValue elementRef="HTTP_VERB" value="GET"/>
       <elementValue elementRef="URI_PATTERN" value="&quot;/address&quot;"/>
       <elementValue elementRef="CONSUMES" value="NONE"/>
       <elementValue elementRef="PRODUCES" value="JSON"/>
-      <elementValue elementRef="STREAMING" value="false"/>
+      <elementValue elementRef="STREAMING" value="true"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAMESPACE" value="&quot;http://www.talend.org/rest/&quot;" show="false"/>
