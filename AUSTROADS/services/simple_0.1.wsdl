@@ -62,27 +62,22 @@
 		</wsdl:operation>
 	</wsdl:portType>
 
-	<wsdl:binding name="simpleBinding" type="tns:simplePortType">
 
+	<wsdl:binding name="httpBind" type="tns:simplePortType">
 		<http:binding verb="GET" />
 		<wsdl:operation name="simpleOperation">
-
 			<http:operation location="/simpleOperation" />
 			<wsdl:input>
-
 				<http:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
 				<mime:content type="text/xml" />
-
-
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
-
 	<wsdl:service name="simple">
-		<wsdl:port name="simplePort" binding="tns:simpleBinding">
-            <http:address location="http://localhost:8090/services/simple"/>
-        </wsdl:port>
+		<wsdl:port name="HTTPPort" binding="tns:httpBind">
+			<http:address location="http://localhost:8090/http" />
+		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
