@@ -119,11 +119,11 @@
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
     <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Talend-Studio-20160704_1411-V6.2.1/workspace/.repositories/977225067/master/AUSTROADS/services/simple_0.1.wsdl" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.talend.org/service/" show="false"/>
-    <elementParameter field="TEXT" name="SERVICE_NAME" value="simple" show="false"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" value="SimpleService" show="false"/>
     <elementParameter field="TEXT" name="PORT_NS" value="http://www.talend.org/service/" show="false"/>
-    <elementParameter field="TEXT" name="PORT_NAME" value="HTTPPort" show="false"/>
+    <elementParameter field="TEXT" name="PORT_NAME" value="NewPort" show="false"/>
     <elementParameter field="TEXT" name="OPERATION_NS" value="" show="false"/>
-    <elementParameter field="TEXT" name="OPERATION_NAME" value="simpleOperation" show="false"/>
+    <elementParameter field="TEXT" name="OPERATION_NAME" value="simple1" show="false"/>
     <elementParameter field="TEXT" name="COMMUNICATION_STYLE" value="request-response" show="false"/>
     <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
