@@ -84,7 +84,7 @@
 
 	<wsdl:service name="simple">
 		<wsdl:port name="simplePort" binding="tns:simpleBinding">
-            <soap:address location="http://localhost:8090/services/simple"/>
+            <http:address location="http://localhost:8090/services/simple"/>
         </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
