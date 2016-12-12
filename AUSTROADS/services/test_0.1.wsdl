@@ -4,7 +4,7 @@
 		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
 		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 		xmlns:tns="http://www.talend.org/service/"
-		targetNamespace="http://www.talend.org/service/">
+		targetNamespace="http://www.talend.org/service/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/">
 
 	<wsdl:types>
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -54,8 +54,8 @@
 	</wsdl:binding>
 
 	<wsdl:service name="test">
-		<wsdl:port name="testPort" binding="tns:testBinding">
-			<soap:address location="http://localhost:8090/services/test" />
-		</wsdl:port>
+		<wsdl:port name="testPort" binding="tns:testBinding">
+            <http:address location="http://localhost:8090/services/test"/>
+        </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
