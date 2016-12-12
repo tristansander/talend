@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions name="License"
-		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-		xmlns:tns="http://www.talend.org/service/"
-		targetNamespace="http://www.talend.org/service/">
+		targetNamespace="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/">
 
 	<wsdl:types>
 		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 			targetNamespace="http://www.talend.org/service/">
-			<xsd:element name="LicenseOperationRequest">
+			<xsd:element name="getLicenseRequest">
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="in" type="xsd:string"></xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="LicenseOperationResponse">
+			<xsd:element name="getLicenseResponse">
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="out" type="xsd:string"></xsd:element>
@@ -24,38 +20,57 @@
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:schema>
-	</wsdl:types>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.xmlsoap.org/wsdl/http/">
+        	<xsd:element name="getLicenseByNumber" type="xsd:string">
+        	</xsd:element>
+        	<xsd:element name="getLicenseByNumberResponse"
+        		type="xsd:string">
+        	</xsd:element>
+        	
+        </xsd:schema>
+    </wsdl:types>
 
-	<wsdl:message name="LicenseOperationRequest">
-		<wsdl:part name="parameters" element="tns:LicenseOperationRequest"></wsdl:part>
+	<wsdl:message name="getLicenseRequest">
+		<wsdl:part name="parameters" element="tns:getLicenseRequest"></wsdl:part>
 	</wsdl:message>
-	<wsdl:message name="LicenseOperationResponse">
-		<wsdl:part name="parameters" element="tns:LicenseOperationResponse"></wsdl:part>
+	<wsdl:message name="getLicenseResponse">
+		<wsdl:part name="parameters" element="tns:getLicenseResponse"></wsdl:part>
 	</wsdl:message>
 
-	<wsdl:portType name="LicensePortType">
-		<wsdl:operation name="LicenseOperation">
-			<wsdl:input message="tns:LicenseOperationRequest"></wsdl:input>
-			<wsdl:output message="tns:LicenseOperationResponse"></wsdl:output>
+	<wsdl:message name="parameter">
+		<wsdl:part name="parameter" element="http:getLicenseByNumber"></wsdl:part>
+	</wsdl:message>
+    <wsdl:message name="NewMessage">
+    	<wsdl:part name="parameter"
+    		element="http:getLicenseByNumberResponse">
+    	</wsdl:part></wsdl:message>
+    <wsdl:portType name="LicensePortType">
+		<wsdl:operation name="getLicense">
+			<wsdl:input message="http:parameter"></wsdl:input>
+			<wsdl:output message="http:NewMessage"></wsdl:output>
 		</wsdl:operation>
 	</wsdl:portType>
 
-	<wsdl:binding name="LicenseBinding" type="tns:LicensePortType">
-		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
-		<wsdl:operation name="LicenseOperation">
-			<soap:operation soapAction="http://www.talend.org/service/LicenseOperation" />
+	<wsdl:binding name="LicenseBinding" type="http:LicensePortType">
+
+		<http:binding verb="GET" />
+		<wsdl:operation name="getLicense">
+
+			<http:operation location="/LicenseOperation" />
 			<wsdl:input>
-				<soap:body use="literal" />
+
+				<http:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
-				<soap:body use="literal" />
+				<mime:content type="text/xml" />
+
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
 
 	<wsdl:service name="License">
-		<wsdl:port name="LicensePort" binding="tns:LicenseBinding">
-			<soap:address location="http://localhost:8090/services/License" />
-		</wsdl:port>
+		<wsdl:port name="LicensePort" binding="http:LicenseBinding">
+            <http:address location="http://localhost:8090/services/License"/>
+        </wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
