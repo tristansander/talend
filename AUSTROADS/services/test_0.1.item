@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
-  <Services:ServiceConnection xmi:id="_Ofp0EcA6EeaArM-Fifit7A" servicePort="_SW8HUMA9EeaArM-Fifit7A"/>
+  <Services:ServiceConnection xmi:id="_Ofp0EcA6EeaArM-Fifit7A" servicePort="_SW8HUMA9EeaArM-Fifit7A">
+    <additionalInfo xmi:id="_FYh0gMBbEea2NZYIdY115Q" key="groupId" value="org.example"/>
+    <additionalInfo xmi:id="_FYh0gcBbEea2NZYIdY115Q" key="artifactId" value="test"/>
+    <additionalInfo xmi:id="_FYh0gsBbEea2NZYIdY115Q" key="version" value="0.1.0"/>
+  </Services:ServiceConnection>
   <Services:ServicePort xmi:id="_SW8HUMA9EeaArM-Fifit7A" name="testPortType" id="_Ohj4kMA6EeaArM-Fifit7A" serviceOperation="_SW8HUcA9EeaArM-Fifit7A _SW8HUsA9EeaArM-Fifit7A"/>
   <Services:ServiceOperation xmi:id="_SW8HUcA9EeaArM-Fifit7A" label="testOperation" name="testOperation" id="_Ohj4kcA6EeaArM-Fifit7A"/>
   <Services:ServiceOperation xmi:id="_SW8HUsA9EeaArM-Fifit7A" label="testOperation2" name="testOperation2" id="_ygxccMA7EeaArM-Fifit7A"/>
