@@ -217,24 +217,31 @@
 			<wsdl:output>
 				<mime:content type="text/xml" />
 
+
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="GetPerson">
+
 			<http:operation location="/GetPerson" />
 			<wsdl:input>
+
 				<http:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
 				<mime:content type="text/xml" />
+
 			</wsdl:output>
 		</wsdl:operation>
 		<wsdl:operation name="GetAddress">
+
 			<http:operation location="/GetAddress" />
 			<wsdl:input>
+
 				<http:urlEncoded />
 			</wsdl:input>
 			<wsdl:output>
 				<mime:content type="text/xml" />
+
 			</wsdl:output>
 		</wsdl:operation>
 	</wsdl:binding>
