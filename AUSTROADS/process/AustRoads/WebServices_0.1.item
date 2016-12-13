@@ -333,57 +333,57 @@
     </elementParameter>
     <elementParameter field="TABLE" name="GROUP" show="false"/>
     <elementParameter field="TABLE" name="LOOP" show="false">
-      <elementValue elementRef="PATH" value="/rootTag/root"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence"/>
       <elementValue elementRef="COLUMN" value=""/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
       <elementValue elementRef="ORDER" value="2"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/person_number"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/person_number"/>
       <elementValue elementRef="COLUMN" value="person_number"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="3"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/jurisdiction_code"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/jurisdiction_code"/>
       <elementValue elementRef="COLUMN" value="jurisdiction_code"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="4"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/licence_number"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/licence_number"/>
       <elementValue elementRef="COLUMN" value="licence_number"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="5"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/status_code"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/status_code"/>
       <elementValue elementRef="COLUMN" value="status_code"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="6"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/status_reason_code"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/status_reason_code"/>
       <elementValue elementRef="COLUMN" value="status_reason_code"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="7"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/driver_class_code"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/driver_class_code"/>
       <elementValue elementRef="COLUMN" value="driver_class_code"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="8"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/driver_class_type_code"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/driver_class_type_code"/>
       <elementValue elementRef="COLUMN" value="driver_class_type_code"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="9"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/issue_date"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/issue_date"/>
       <elementValue elementRef="COLUMN" value="issue_date"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="10"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/expiry_date"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/expiry_date"/>
       <elementValue elementRef="COLUMN" value="expiry_date"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="11"/>
-      <elementValue elementRef="PATH" value="/rootTag/root/end_date"/>
+      <elementValue elementRef="PATH" value="/rootTag/licence/end_date"/>
       <elementValue elementRef="COLUMN" value="end_date"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
@@ -391,7 +391,7 @@
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TABLE" name="GROUPBYS"/>
-    <elementParameter field="CHECK" name="REMOVE_ROOT" value="false"/>
+    <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
     <elementParameter field="CHECK" name="COMPACT_FORMAT" value="true" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWriteJSONField_1">
