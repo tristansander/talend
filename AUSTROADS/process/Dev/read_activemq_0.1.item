@@ -640,7 +640,7 @@
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SupressionCode"/>
-      <elementValue elementRef="QUERY" value="&quot;/person/supression_code&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/suppression_code&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
     </elementParameter>
