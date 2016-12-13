@@ -426,7 +426,7 @@
   </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;http://127.0.0.1:8088&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;http://ec2-54-206-67-28.ap-southeast-2.compute.amazonaws.com:8088&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;/licence&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml" show="false"/>
@@ -501,7 +501,7 @@
   </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_2" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;http://127.0.0.1:8088&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;http://ec2-54-206-67-28.ap-southeast-2.compute.amazonaws.com:8088&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;/person&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml" show="false"/>
@@ -771,7 +771,7 @@
   </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_3" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;http://127.0.0.1:8088&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;http://ec2-54-206-67-28.ap-southeast-2.compute.amazonaws.com:8088&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;/address&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml" show="false"/>
