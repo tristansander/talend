@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
   <TalendMetadata:GenericSchemaConnection xmi:id="_JeDiMMDZEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataPackage="_JeDiMcDZEeay1LPAyT44Wg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
   <TalendMetadata:GenericPackage xmi:id="_JeDiMcDZEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataManager="_JeDiMMDZEeay1LPAyT44Wg">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JeDiMsDZEeay1LPAyT44Wg" id="_ZzWLEMDYEeay1LPAyT44Wg" label="metadata">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JeDiMsDZEeay1LPAyT44Wg" id="_ZzWLEMDYEeay1LPAyT44Wg" label="austroads.person">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiM8DZEeay1LPAyT44Wg" name="jurisdiction_code" label="jurisdiction_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiNMDZEeay1LPAyT44Wg" name="person_number" label="person_number" length="10" sourceType="VARCHAR" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiNcDZEeay1LPAyT44Wg" name="status_code" label="status_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
