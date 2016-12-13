@@ -964,7 +964,7 @@
   </node>
   <node componentName="tMomCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomCommit_1" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomConnection_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomInput_1"/>
     <elementParameter field="CHECK" name="CLOSE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMomCommit_1">
@@ -1057,7 +1057,7 @@
   </node>
   <node componentName="tMomRollback" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="2176" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomRollback_1" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomConnection_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomInput_1"/>
     <elementParameter field="CHECK" name="AUTO_BACKOUT" value="false"/>
     <elementParameter field="CHECK" name="CLOSE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1068,7 +1068,7 @@
   </node>
   <node componentName="tMomRollback" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="2176" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomRollback_2" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomConnection_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomInput_1"/>
     <elementParameter field="CHECK" name="AUTO_BACKOUT" value="false"/>
     <elementParameter field="CHECK" name="CLOSE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1079,7 +1079,7 @@
   </node>
   <node componentName="tMomRollback" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="2176" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomRollback_3" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomConnection_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomInput_1"/>
     <elementParameter field="CHECK" name="AUTO_BACKOUT" value="false"/>
     <elementParameter field="CHECK" name="CLOSE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
