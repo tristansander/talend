@@ -896,7 +896,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="AddressEdifact">
-        <mapperTableEntries name="message" expression="&quot;ADD:1&quot; + &quot;+&quot; + &#xD;&#xA;row9.AddressTypeCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.HouseNumber + &quot;+&quot; + &#xA;row9.StreetName + &quot;+&quot; + &#xA;row9.StreetTypeCode + &quot;+&quot; + &#xA;row9.StreetSuffixCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.SuburbLocality + &quot;+&quot; + &#xA;row9.StateCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.Postcode " type="id_String" nullable="true"/>
+        <mapperTableEntries name="message" expression="(String)globalMap.get(&quot;EdifactRow&quot;) + &quot;\n&quot; + &#xD;&#xA;&quot;ADD:1&quot; + &quot;+&quot; + &#xD;&#xD;&#xA;row9.AddressTypeCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xD;&#xA;row9.HouseNumber + &quot;+&quot; + &#xD;&#xA;row9.StreetName + &quot;+&quot; + &#xD;&#xA;row9.StreetTypeCode + &quot;+&quot; + &#xD;&#xA;row9.StreetSuffixCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xD;&#xA;row9.SuburbLocality + &quot;+&quot; + &#xD;&#xA;row9.StateCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xD;&#xA;row9.Postcode " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row9" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="AddressTypeCode" type="id_String" nullable="true"/>
