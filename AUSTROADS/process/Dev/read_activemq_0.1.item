@@ -421,7 +421,7 @@
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_4_JSONPATH">
       <elementValue elementRef="SCHEMA_COLUMN" value="JurisdictionCode"/>
-      <elementValue elementRef="QUERY" value="$.juridiction_code"/>
+      <elementValue elementRef="QUERY" value="&quot;$.juridiction_code&quot;"/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
