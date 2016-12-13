@@ -331,6 +331,24 @@
       <relatedItems xmi:id="_Hgr7MsEcEearPexQgvXOUA" id="_JeC7IMDZEeay1LPAyT44Wg - austroads.person" version="Latest" type="schema"/>
       <relatedItems xmi:id="_Hgr7M8EcEearPexQgvXOUA" id="_cEHKQMDMEeay1LPAyT44Wg - austroads.licence" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_LtersMEcEearPexQgvXOUA">
+      <baseItem xmi:id="_LterscEcEearPexQgvXOUA" id="_LstPoMEcEearPexQgvXOUA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_LterssEcEearPexQgvXOUA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lters8EcEearPexQgvXOUA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LtertMEcEearPexQgvXOUA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LtertcEcEearPexQgvXOUA" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LtertsEcEearPexQgvXOUA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Ltert8EcEearPexQgvXOUA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LteruMEcEearPexQgvXOUA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LterucEcEearPexQgvXOUA" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LterusEcEearPexQgvXOUA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lteru8EcEearPexQgvXOUA" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LtervMEcEearPexQgvXOUA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LtervcEcEearPexQgvXOUA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LtervsEcEearPexQgvXOUA" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Lterv8EcEearPexQgvXOUA" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_LterwMEcEearPexQgvXOUA" id="MDM" version="Latest" type="routine"/>
+    </ItemsRelations>
     <deletedFolders>process/test/testPortType/testOperation2</deletedFolders>
     <deletedFolders>process/test/testPortType/testOperation</deletedFolders>
     <deletedFolders>process/test/testPortType</deletedFolders>
