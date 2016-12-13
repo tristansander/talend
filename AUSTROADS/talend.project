@@ -288,6 +288,10 @@
       <relatedItems xmi:id="_hZBUFMC5EeazV9yC2VyUdQ" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_hZBUFcC5EeazV9yC2VyUdQ" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <deletedFolders>process/test/testPortType/testOperation2</deletedFolders>
+    <deletedFolders>process/test/testPortType/testOperation</deletedFolders>
+    <deletedFolders>process/test/testPortType</deletedFolders>
+    <deletedFolders>process/test</deletedFolders>
     <migrationTask xmi:id="_ybPDgL_rEeaSLqT-rKktnQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_ybPDgb_rEeaSLqT-rKktnQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_ybPDgr_rEeaSLqT-rKktnQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
