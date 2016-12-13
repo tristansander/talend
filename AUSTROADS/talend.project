@@ -349,6 +349,24 @@
       <relatedItems xmi:id="_Lterv8EcEearPexQgvXOUA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_LterwMEcEearPexQgvXOUA" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_24iGYMF5EeaBbtgV5Yhk4Q">
+      <baseItem xmi:id="_24iGYcF5EeaBbtgV5Yhk4Q" id="_hwlZEMF1EeaBbtgV5Yhk4Q" version="0.1" type="job"/>
+      <relatedItems xmi:id="_24iGYsF5EeaBbtgV5Yhk4Q" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGY8F5EeaBbtgV5Yhk4Q" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGZMF5EeaBbtgV5Yhk4Q" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGZcF5EeaBbtgV5Yhk4Q" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGZsF5EeaBbtgV5Yhk4Q" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGZ8F5EeaBbtgV5Yhk4Q" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGaMF5EeaBbtgV5Yhk4Q" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGacF5EeaBbtgV5Yhk4Q" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGasF5EeaBbtgV5Yhk4Q" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGa8F5EeaBbtgV5Yhk4Q" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGbMF5EeaBbtgV5Yhk4Q" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGbcF5EeaBbtgV5Yhk4Q" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGbsF5EeaBbtgV5Yhk4Q" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGb8F5EeaBbtgV5Yhk4Q" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_24iGcMF5EeaBbtgV5Yhk4Q" id="MDM" version="Latest" type="routine"/>
+    </ItemsRelations>
     <deletedFolders>process/test/testPortType/testOperation2</deletedFolders>
     <deletedFolders>process/test/testPortType/testOperation</deletedFolders>
     <deletedFolders>process/test/testPortType</deletedFolders>
