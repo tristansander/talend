@@ -604,43 +604,43 @@
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$&quot;" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="JurisdictionCode"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/jurisdiction_code&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/jurisdiction_code&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PersonNumber"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/person_number&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/person_number&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="StatusCode"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/status_code&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/status_code&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ClassCode"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/class_code&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/class_code&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Surname"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/surname&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/surname&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="FirstName"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/first_name&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/first_name&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SubsequentName"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/subsequent_name&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/subsequent_name&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Gender"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/gender&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/gender&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="DOB"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/dob&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/dob&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SupressionCode"/>
-      <elementValue elementRef="QUERY" value="&quot;/licence/supression_code&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;/person/supression_code&quot;"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="ISARRAY" value="false"/>
     </elementParameter>
