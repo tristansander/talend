@@ -881,7 +881,7 @@
       <column comment="" key="false" length="-1" name="message" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="AddressEdifact">
         <mapperTableEntries name="message" expression="(String)globalMap.get(&quot;EdifactRow&quot;) + &quot;\n&quot; + &#xD;&#xA;&quot;ADD:1&quot; + &quot;+&quot; + &#xD;&#xD;&#xA;row9.AddressTypeCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xD;&#xA;row9.HouseNumber + &quot;+&quot; + &#xD;&#xA;row9.StreetName + &quot;+&quot; + &#xD;&#xA;row9.StreetTypeCode + &quot;+&quot; + &#xD;&#xA;row9.StreetSuffixCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xD;&#xA;row9.SuburbLocality + &quot;+&quot; + &#xD;&#xA;row9.StateCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xD;&#xA;row9.Postcode " type="id_String" nullable="true"/>
@@ -1035,7 +1035,7 @@
   </node>
   <node componentName="tMomCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1600" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomCommit_1" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMomConnection_1"/>
     <elementParameter field="CHECK" name="CLOSE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMomCommit_1">
