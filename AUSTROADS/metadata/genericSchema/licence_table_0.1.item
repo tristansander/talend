@@ -3,8 +3,9 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_cEIYYMDMEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataPackage="_cEIYYcDMEeay1LPAyT44Wg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
   <TalendMetadata:GenericPackage xmi:id="_cEIYYcDMEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataManager="_cEIYYMDMEeay1LPAyT44Wg">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cEIYYsDMEeay1LPAyT44Wg" id="_EkhTUMDMEeay1LPAyT44Wg" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYY8DMEeay1LPAyT44Wg" name="jurisdiction_code" label="jurisdiction_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZMDMEeay1LPAyT44Wg" name="licence_number" label="licence_number" length="10" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYY8DMEeay1LPAyT44Wg" name="jurisdiction_code" label="jurisdiction_code" length="1" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZMDMEeay1LPAyT44Wg" name="licence_number" label="licence_number" length="10" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_CMaXAMDNEeay1LPAyT44Wg" name="person_number" label="person_number" length="10" sourceType="VARCHAR" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZcDMEeay1LPAyT44Wg" name="status_code" label="status_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZsDMEeay1LPAyT44Wg" name="status_reason_code" label="status_reason_code" length="2" sourceType="VARCHAR" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZ8DMEeay1LPAyT44Wg" name="driver_class_code" label="driver_class_code" length="2" sourceType="VARCHAR" talendType="id_String"/>
