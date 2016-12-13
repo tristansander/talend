@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_cEIYYMDMEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataPackage="_cEIYYcDMEeay1LPAyT44Wg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_cEIYYcDMEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataManager="_cEIYYMDMEeay1LPAyT44Wg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cEIYYsDMEeay1LPAyT44Wg" id="_EkhTUMDMEeay1LPAyT44Wg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYY8DMEeay1LPAyT44Wg" name="jurisdiction_code" label="jurisdiction_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZMDMEeay1LPAyT44Wg" name="licence_number" label="licence_number" length="10" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZcDMEeay1LPAyT44Wg" name="status_code" label="status_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZsDMEeay1LPAyT44Wg" name="status_reason_code" label="status_reason_code" length="2" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYZ8DMEeay1LPAyT44Wg" name="driver_class_code" label="driver_class_code" length="2" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYaMDMEeay1LPAyT44Wg" name="driver_class_type_code" label="driver_class_type_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYacDMEeay1LPAyT44Wg" name="issue_date" label="issue_date" length="-1" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYasDMEeay1LPAyT44Wg" name="expiry_date" label="expiry_date" length="-1" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cEIYa8DMEeay1LPAyT44Wg" name="end_date" label="end_date" length="-1" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
