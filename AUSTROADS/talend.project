@@ -292,6 +292,11 @@
     <deletedFolders>process/test/testPortType/testOperation</deletedFolders>
     <deletedFolders>process/test/testPortType</deletedFolders>
     <deletedFolders>process/test</deletedFolders>
+    <deletedFolders>process/simple/simplePortType/simpleOperation</deletedFolders>
+    <deletedFolders>process/simple/simplePortType</deletedFolders>
+    <deletedFolders>process/simple/SimplePort/simple1</deletedFolders>
+    <deletedFolders>process/simple/SimplePort</deletedFolders>
+    <deletedFolders>process/simple</deletedFolders>
     <migrationTask xmi:id="_ybPDgL_rEeaSLqT-rKktnQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_ybPDgb_rEeaSLqT-rKktnQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_ybPDgr_rEeaSLqT-rKktnQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
