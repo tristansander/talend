@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_JeDiMMDZEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataPackage="_JeDiMcDZEeay1LPAyT44Wg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_JeDiMcDZEeay1LPAyT44Wg" name="repository.metadataGenericSchema" dataManager="_JeDiMMDZEeay1LPAyT44Wg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_JeDiMsDZEeay1LPAyT44Wg" id="_ZzWLEMDYEeay1LPAyT44Wg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiM8DZEeay1LPAyT44Wg" name="jurisdiction_code" label="jurisdiction_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiNMDZEeay1LPAyT44Wg" name="person_number" label="person_number" length="10" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiNcDZEeay1LPAyT44Wg" name="status_code" label="status_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiNsDZEeay1LPAyT44Wg" name="class_code" label="class_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiN8DZEeay1LPAyT44Wg" name="surname" label="surname" length="40" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiOMDZEeay1LPAyT44Wg" name="first_name" label="first_name" length="20" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiOcDZEeay1LPAyT44Wg" name="subsequent_name" label="subsequent_name" length="20" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiOsDZEeay1LPAyT44Wg" name="gender" label="gender" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiO8DZEeay1LPAyT44Wg" name="dob" label="dob" length="-1" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiPMDZEeay1LPAyT44Wg" name="suppression_code" label="suppression_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiPcDZEeay1LPAyT44Wg" name="address_type_code" label="address_type_code" length="1" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiPsDZEeay1LPAyT44Wg" name="house_number" label="house_number" length="6" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiP8DZEeay1LPAyT44Wg" name="street_name" label="street_name" length="25" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiQMDZEeay1LPAyT44Wg" name="street_type_code" label="street_type_code" length="4" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiQcDZEeay1LPAyT44Wg" name="street_suffix_code" label="street_suffix_code" length="2" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiQsDZEeay1LPAyT44Wg" name="suburb_locality" label="suburb_locality" length="10" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiQ8DZEeay1LPAyT44Wg" name="state_code" label="state_code" length="3" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JeDiRMDZEeay1LPAyT44Wg" name="postcode" label="postcode" length="4" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
