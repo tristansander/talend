@@ -307,6 +307,8 @@
       <relatedItems xmi:id="_vNXdsMDNEeay1LPAyT44Wg" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_vNXdscDNEeay1LPAyT44Wg" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_vNXdssDNEeay1LPAyT44Wg" id="_cEHKQMDMEeay1LPAyT44Wg - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Uda9UMDaEeay1LPAyT44Wg" id="_JeC7IMDZEeay1LPAyT44Wg - austroads.person" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Uda9UcDaEeay1LPAyT44Wg" id="_cEHKQMDMEeay1LPAyT44Wg - austroads.licence" version="Latest" type="schema"/>
     </ItemsRelations>
     <deletedFolders>process/test/testPortType/testOperation2</deletedFolders>
     <deletedFolders>process/test/testPortType/testOperation</deletedFolders>
