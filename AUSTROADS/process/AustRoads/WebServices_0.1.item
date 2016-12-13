@@ -259,8 +259,6 @@
   </node>
   <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlInput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMysqlConnection_1"/>
@@ -277,7 +275,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select &#xD;&#xA;jurisdiction_code,     &#xD;&#xA;licence_number,        &#xD;&#xA;person_number,&#xD;&#xA;status_code,           &#xD;&#xA;status_reason_code,    &#xD;&#xA;driver_class_code,     &#xD;&#xA;driver_class_type_code,&#xD;&#xA;issue_date,            &#xD;&#xA;expiry_date,           &#xD;&#xA;end_date,              &#xD;&#xA;from austroads.licence&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select &#xD;&#xA;jurisdiction_code,     &#xD;&#xA;licence_number,        &#xD;&#xA;person_number,&#xD;&#xA;status_code,           &#xD;&#xA;status_reason_code,    &#xD;&#xA;driver_class_code,     &#xD;&#xA;driver_class_type_code,&#xD;&#xA;issue_date,            &#xD;&#xA;expiry_date,           &#xD;&#xA;end_date&#xD;&#xA;from austroads.licence&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
