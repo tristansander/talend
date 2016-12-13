@@ -352,7 +352,7 @@
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml" show="false"/>
     <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="application/json"/>
     <elementParameter field="TABLE" name="QUERY">
-      <elementValue elementRef="NAME" value="&quot;LicenseNumber&quot;"/>
+      <elementValue elementRef="NAME" value="&quot;LicenceNumber&quot;"/>
       <elementValue elementRef="VALUE" value="(String)globalMap.get(&quot;LicenseNumber&quot;)"/>
       <elementValue elementRef="NAME" value="&quot;JurisdictionCode&quot;"/>
       <elementValue elementRef="VALUE" value="(String)globalMap.get(&quot;JurisdictionCode&quot;)"/>
