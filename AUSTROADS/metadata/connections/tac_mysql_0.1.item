@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_XwB7YMDLEeay1LPAyT44Wg" name="tac_mysql" id="_TpCQ0MDLEeay1LPAyT44Wg" label="tac_mysql" dataPackage="_X5gAcMDLEeay1LPAyT44Wg _X5hOkMDLEeay1LPAyT44Wg _X5hOkcDLEeay1LPAyT44Wg _X5hOksDLEeay1LPAyT44Wg _X5hOk8DLEeay1LPAyT44Wg _X5hOlMDLEeay1LPAyT44Wg _X5hOlcDLEeay1LPAyT44Wg _X5hOlsDLEeay1LPAyT44Wg _X5hOl8DLEeay1LPAyT44Wg _X5hOmMDLEeay1LPAyT44Wg _X5hOmcDLEeay1LPAyT44Wg _X5hOmsDLEeay1LPAyT44Wg _X5hOm8DLEeay1LPAyT44Wg _X5hOnMDLEeay1LPAyT44Wg _X5hOncDLEeay1LPAyT44Wg" DatabaseType="MySQL" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://ec2-54-206-67-28.ap-southeast-2.compute.amazonaws.com:3306/?noDatetimeStringSync=true" dbVersionString="MARIADB" Port="3306" Username="talend" Password="mGeXLdOUodROxMRgsx4WkA==" ServerName="ec2-54-206-67-28.ap-southeast-2.compute.amazonaws.com" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_XwDJgMDLEeay1LPAyT44Wg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_XxX_MMDLEeay1LPAyT44Wg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Xxf7AMDLEeay1LPAyT44Wg" tag="Status" value=""/>
+    <taggedValue xmi:id="_Xxf7AcDLEeay1LPAyT44Wg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Xxf7AsDLEeay1LPAyT44Wg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Xxf7A8DLEeay1LPAyT44Wg" tag="Description" value=""/>
+    <taggedValue xmi:id="_Xxf7BMDLEeay1LPAyT44Wg" tag="Author" value=""/>
+    <taggedValue xmi:id="_Xxf7BcDLEeay1LPAyT44Wg" tag="otherParameter"/>
+    <taggedValue xmi:id="_Xy1XwMDLEeay1LPAyT44Wg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_Xy1XwcDLEeay1LPAyT44Wg" tag="DB ProductVersion" value="5.5.52-MariaDB"/>
+    <taggedValue xmi:id="_Xy1XwsDLEeay1LPAyT44Wg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_XwDJgcDLEeay1LPAyT44Wg" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5gAcMDLEeay1LPAyT44Wg" name="amc" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOkMDLEeay1LPAyT44Wg" name="austroads" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOkcDLEeay1LPAyT44Wg" name="cif" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOksDLEeay1LPAyT44Wg" name="context" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOk8DLEeay1LPAyT44Wg" name="crm" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOlMDLEeay1LPAyT44Wg" name="eric" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOlcDLEeay1LPAyT44Wg" name="information_schema" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOlsDLEeay1LPAyT44Wg" name="john" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOl8DLEeay1LPAyT44Wg" name="marek" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOmMDLEeay1LPAyT44Wg" name="melissa" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOmcDLEeay1LPAyT44Wg" name="semantic_discovery" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOmsDLEeay1LPAyT44Wg" name="talend_admin" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOm8DLEeay1LPAyT44Wg" name="talend_context" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOnMDLEeay1LPAyT44Wg" name="talend_dq" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_X5hOncDLEeay1LPAyT44Wg" name="tristan" dataManager="_XwB7YMDLEeay1LPAyT44Wg"/>
+</xmi:XMI>
