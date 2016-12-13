@@ -546,7 +546,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="LicenceEdifact">
-        <mapperTableEntries name="EdifactRow" expression="&quot;LIC:1&quot; + &#xD;&#xA;row10.JurisdictionCode + &quot;+&quot; + &#xD;&#xA;row10.LicenceNumber + &quot;+&quot; + &#xD;&#xA;row10.StatusCode + &quot;+&quot; + &#xD;&#xA;row10.StatusReasonCode + &quot;+&quot; +&#xA;row10.DriverClassCode + &quot;+&quot; +&#xA;row10.DriverClassTypeCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; +&#xA;row10.IssueDate + &quot;+&quot; +&#xA;row10.ExpiryDate + &quot;+&quot; +&#xA;row10.EndDate " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EdifactRow" expression="&quot;LIC:1&quot; + &quot;+&quot; +&#xD;&#xA;row10.JurisdictionCode + &quot;+&quot; + &#xD;&#xA;row10.LicenceNumber + &quot;+&quot; + &#xD;&#xA;row10.StatusCode + &quot;+&quot; + &#xD;&#xA;row10.StatusReasonCode + &quot;+&quot; +&#xA;row10.DriverClassCode + &quot;+&quot; +&#xA;row10.DriverClassTypeCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; +&#xA;row10.IssueDate + &quot;+&quot; +&#xA;row10.ExpiryDate + &quot;+&quot; +&#xA;row10.EndDate " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row10" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="PersonNumber" type="id_String" nullable="true"/>
@@ -756,7 +756,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="PersonEdifact">
-        <mapperTableEntries name="EdifactRow" expression="&quot;PER:1&quot; + &#xD;&#xA;row7.JurisdictionCode + &quot;+&quot; +&#xA;row7.PersonNumber + &quot;+&quot; +&#xA;row7.StatusCode + &quot;+&quot; +&#xA;row7.ClassCode + &quot;+&quot; +&#xA;row7.Surname + &quot;+&quot; +&#xA;row7.FirstName + &quot;+&quot; +&#xA;row7.SubsequentName + &quot;+&quot; +&#xA;row7.Gender + &quot;+&quot; +&#xA;row7.DOB + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; +&#xA;row7.SuppressionCode " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EdifactRow" expression="&quot;PER:1&quot; + &quot;+&quot; +&#xD;&#xA;row7.JurisdictionCode + &quot;+&quot; +&#xA;row7.PersonNumber + &quot;+&quot; +&#xA;row7.StatusCode + &quot;+&quot; +&#xA;row7.ClassCode + &quot;+&quot; +&#xA;row7.Surname + &quot;+&quot; +&#xA;row7.FirstName + &quot;+&quot; +&#xA;row7.SubsequentName + &quot;+&quot; +&#xA;row7.Gender + &quot;+&quot; +&#xA;row7.DOB + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; +&#xA;row7.SuppressionCode " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row7" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="JurisdictionCode" type="id_String" nullable="true"/>
@@ -950,7 +950,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="AddressEdifact">
-        <mapperTableEntries name="EdifactRow" expression="&quot;LIC:1&quot; + &#xD;&#xA;row9.AddressTypeCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.HouseNumber + &quot;+&quot; + &#xA;row9.StreetName + &quot;+&quot; + &#xA;row9.StreetTypeCode + &quot;+&quot; + &#xA;row9.StreetSuffixCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.SuburbLocality + &quot;+&quot; + &#xA;row9.StateCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.Postcode " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EdifactRow" expression="&quot;LIC:1&quot; + &quot;+&quot; + &#xD;&#xA;row9.AddressTypeCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.HouseNumber + &quot;+&quot; + &#xA;row9.StreetName + &quot;+&quot; + &#xA;row9.StreetTypeCode + &quot;+&quot; + &#xA;row9.StreetSuffixCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.SuburbLocality + &quot;+&quot; + &#xA;row9.StateCode + &quot;+&quot; + &quot;+&quot; + &quot;+&quot; + &#xA;row9.Postcode " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row9" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="AddressTypeCode" type="id_String" nullable="true"/>
