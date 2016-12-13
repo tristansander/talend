@@ -142,7 +142,7 @@
     <elementParameter field="TEXT" name="NB_ROWS" value="1" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
-      <elementValue elementRef="ARRAY" value="&quot;PL2REQQ49915982517150058\nUNB+ARDS:1+TRAILS-QDOT+NEVDIS+2016-11-24:15.16.42+15982517150058\nUNH+1+PL2REQ:1:1:AR\nBGM:1+R\nPLI:1+51908866+A\nUNT+4+1\nUNZ+1+15982517150058&quot; "/>
+      <elementValue elementRef="ARRAY" value="&quot;PL2REQQ49915982517150058\nUNB+ARDS:1+TRAILS-QDOT+NEVDIS+2016-11-24:15.16.42+15982517150058\nUNH+1+PL2REQ:1:1:AR\nBGM:1+R\nPLI:1+5190886+A\nUNT+4+1\nUNZ+1+15982517150058&quot; "/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
