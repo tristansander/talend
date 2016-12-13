@@ -302,12 +302,6 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <note opaque="true" posX="608" posY="32" sizeHeight="193" sizeWidth="609" text="# 02/12/2106 - SC #&#xA; - Created test job to write to the queue &quot;Out_Queue&quot;. &#xA;    This job simply connects to queue and writes a  &#xA;    message to it.&#xA;&#xA;    To check the messages after sending them access this link &#xA;    http://54.206.67.28:8161/admin/browse.jsp?JMSDestination=Out_Queue&#xA;    admin admin">
-    <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
-    <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
-    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
-    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
-  </note>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomConnection_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
