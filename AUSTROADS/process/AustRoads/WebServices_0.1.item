@@ -933,6 +933,7 @@
     <elementParameter field="TABLE" name="GROUPBYS"/>
     <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
     <elementParameter field="CHECK" name="COMPACT_FORMAT" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Convert to JSON"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWriteJSONField_4">
       <column comment="" key="false" length="-1" name="body" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
