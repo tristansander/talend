@@ -288,6 +288,26 @@
       <relatedItems xmi:id="_hZBUFMC5EeazV9yC2VyUdQ" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_hZBUFcC5EeazV9yC2VyUdQ" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_vNXdoMDNEeay1LPAyT44Wg">
+      <baseItem xmi:id="_vNXdocDNEeay1LPAyT44Wg" id="_B7db0MDLEeay1LPAyT44Wg" version="0.1" type="job"/>
+      <relatedItems xmi:id="_vNXdosDNEeay1LPAyT44Wg" id="_TpCQ0MDLEeay1LPAyT44Wg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_vNXdo8DNEeay1LPAyT44Wg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdpMDNEeay1LPAyT44Wg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdpcDNEeay1LPAyT44Wg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdpsDNEeay1LPAyT44Wg" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdp8DNEeay1LPAyT44Wg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdqMDNEeay1LPAyT44Wg" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdqcDNEeay1LPAyT44Wg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdqsDNEeay1LPAyT44Wg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdq8DNEeay1LPAyT44Wg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdrMDNEeay1LPAyT44Wg" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdrcDNEeay1LPAyT44Wg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdrsDNEeay1LPAyT44Wg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdr8DNEeay1LPAyT44Wg" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdsMDNEeay1LPAyT44Wg" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdscDNEeay1LPAyT44Wg" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_vNXdssDNEeay1LPAyT44Wg" id="_cEHKQMDMEeay1LPAyT44Wg - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
     <deletedFolders>process/test/testPortType/testOperation2</deletedFolders>
     <deletedFolders>process/test/testPortType/testOperation</deletedFolders>
     <deletedFolders>process/test/testPortType</deletedFolders>
