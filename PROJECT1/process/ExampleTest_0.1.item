@@ -274,10 +274,10 @@
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
-      <elementValue elementRef="newColumn" value="opne"/>
-      <elementValue elementRef="sdfsdf" value="asfd"/>
-      <elementValue elementRef="newColumn" value="twre"/>
-      <elementValue elementRef="sdfsdf" value="sdfds"/>
+      <elementValue elementRef="newColumn" value="&quot;one&quot;"/>
+      <elementValue elementRef="sdfsdf" value="&quot;two&quot;"/>
+      <elementValue elementRef="newColumn" value="&quot;three&quot;"/>
+      <elementValue elementRef="sdfsdf" value="&quot;four&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
